@@ -31,7 +31,7 @@ $today = date("Y-m-d");
             }
         }
 
-        $media_horario_hoje = mysqli_query($conn, "SELECT TIME_FORMAT(AVG(TIMEDIFF(data_realizado, data_solicitado)), '%H:%i:%s') AS media_de_hoje FROM posicionamentos");
+        $media_horario_hoje = mysqli_query($conn, "SELECT TIME_FORMAT(AVG(TIMEDIFF(data_realizado, data_solicitado)), '%H:%i:%s') AS media_de_hoje FROM posicionamentos WHERE DATE_FORMAT(data_solicitado, '%Y-%m-%d') = '$today'");
         $row_media_horario_hoje = mysqli_fetch_assoc($media_horario_hoje);
 
         // Chart Js - Posicionamentos Realizados
@@ -57,5 +57,26 @@ $today = date("Y-m-d");
         } else {
            echo "";
         }
+
+
+        // Métricas
+
+        // Recuperar o valor de ontem
+        // $ontem = date('Y-m-d', strtotime('-1 day'));
+        // $query = "SELECT container FROM posicionamentos WHERE DATE_FORMAT(data_solicitado, '%Y-%m-%d') = '$ontem'";
+        // $result = mysqli_query($conn, $query);
+        // $valor_ontem = mysqli_fetch_assoc($result);
+
+        // Recuperar o valor de hoje
+        // $hoje = date('Y-m-d');
+        // $query = "SELECT valor FROM metricas WHERE DATE(datahora) = '$hoje'";
+        // $result = $mysqli->query($query);
+        // $valor_hoje = $result->fetch_assoc()['valor'];
+
+        // // Calcular a mudança percentual
+        // $aumento_percentual = ($valor_hoje - $valor_ontem) / $valor_ontem * 100;
+
+        // echo "Aumento percentual desde ontem: " . round($aumento_percentual) . "%";
         
         
+
