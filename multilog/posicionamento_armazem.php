@@ -56,7 +56,7 @@ require_once 'requests/head.php'
                   </thead>
                   <tbody>
                         <?php 
-                        $posicionamento_sql = mysqli_query($conn,"SELECT * FROM posicionamentos WHERE armazem = '$armazem_responsavel'"); 
+                        $posicionamento_sql = mysqli_query($conn,"SELECT * FROM posicionamentos WHERE armazem = '$armazem_responsavel' and DATE_FORMAT(data_solicitado, '%Y-%m-%d') = '$today'"); 
 
                             while($row = mysqli_fetch_assoc($posicionamento_sql)) {
                               $data_solicitado = $row['data_solicitado'];      
@@ -122,7 +122,7 @@ require_once 'requests/head.php'
                 <tbody>
 
                 <?php 
-                  $status_desempenho = mysqli_query($conn, "SELECT armazem, COUNT(*) AS total_solicitados, COUNT(data_realizado) AS total_realizados FROM posicionamentos GROUP BY armazem");
+                  $status_desempenho = mysqli_query($conn, "SELECT armazem, COUNT(*) AS total_solicitados, COUNT(data_realizado) AS total_realizados FROM posicionamentos WHERE DATE_FORMAT(data_solicitado, '%Y-%m-%d') = '$today' GROUP BY armazem");
 
                   while ($row = mysqli_fetch_assoc($status_desempenho)) {
                   
