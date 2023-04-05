@@ -2,10 +2,10 @@
 
 // Conexão com o banco de dados
 
-    $servidor = "localhost"; // Servidor
-    $usuario = "root"; // Usuario DB
-    $senha = ""; // Senha DB
-    $db = "multilog"; // Nome do Banco de Dados
+    $servidor = "185.245.180.1"; // Servidor
+    $usuario = "lksa8668_multilog"; // Usuario DB
+    $senha = "Qwerty@747"; // Senha DB
+    $db = "lksa8668_multilog"; // Nome do Banco de Dados
 
     $conn = mysqli_connect($servidor, $usuario, $senha, $db);
 
@@ -47,9 +47,15 @@ $today = date("Y-m-d");
         }
 
         // Permissao Usuario 
-        $id = $_SESSION['id'];
-        $permissao_sql = mysqli_query($conn,"SELECT permissao,area,armazem FROM web_login WHERE id = $id");
-        $row_permissao = mysqli_fetch_assoc($permissao_sql);
-        $permissao_user = $row_permissao['permissao'];
-        $area_user = $row_permissao['area'];
-        $armazem_responsavel = $row_permissao['armazem'];
+        if(isset($_SESSION['id'])) {
+            $id = $_SESSION['id'];
+            $permissao_sql = mysqli_query($conn,"SELECT permissao,area,armazem FROM web_login WHERE id = $id");
+            $row_permissao = mysqli_fetch_assoc($permissao_sql);
+            $permissao_user = $row_permissao['permissao'];
+            $area_user = $row_permissao['area'];
+            $armazem_responsavel = $row_permissao['armazem'];
+        } else {
+           echo "";
+        }
+        
+        
