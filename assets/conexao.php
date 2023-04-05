@@ -36,14 +36,17 @@ $today = date("Y-m-d");
 
         // Chart Js - Posicionamentos Realizados
 
-        $posicionamentos_mensais = mysqli_query($conn, "SELECT MONTH(data_realizado) AS mes, COUNT(*) AS total FROM posicionamentos GROUP BY mes");
+        $sql_chart = mysqli_query($conn,"SELECT MONTH(data_solicitado) AS mes, COUNT(containers) AS total_posicionamentos FROM posicionamentos GROUP BY MONTH(data_solicitado)");
+        
+        // Preparar os dados para serem usados no gráfico
+        $meses = array();
+        $posicionamentos = array();
 
-        $labels = array();
-        $data = array();
-
-        while ($row = mysqli_fetch_assoc($posicionamentos_mensais)) {
-            $labels[] = $row['mes'];
-            $data[] = $row['total'];
+        if (mysqli_num_rows($sql_chart) > 0) {
+            while($result_chart = mysqli_fetch_assoc($sql_chart)) {
+                $meses[] = date('M', mktime(0, 0, 0, $result_chart['mes'], 1));
+                $posicionamentos[] = $result_chart['total_posicionamentos'];
+            }
         }
 
         // Permissao Usuario 
@@ -58,25 +61,39 @@ $today = date("Y-m-d");
            echo "";
         }
 
-
         // Métricas
 
-        // Recuperar o valor de ontem
-        // $ontem = date('Y-m-d', strtotime('-1 day'));
-        // $query = "SELECT container FROM posicionamentos WHERE DATE_FORMAT(data_solicitado, '%Y-%m-%d') = '$ontem'";
-        // $result = mysqli_query($conn, $query);
-        // $valor_ontem = mysqli_fetch_assoc($result);
+        // Posicionamentos ontem e hoje
+            // Recuperar o valor de ontem
+            $ontem = date('Y-m-d', strtotime('-1 day'));
+            $sql_metrica_ontem = mysqli_query($conn,"SELECT COUNT(containers) as total FROM posicionamentos WHERE DATE_FORMAT(data_solicitado, '%Y-%m-%d') = '$ontem'");
+            $valor_ontem = mysqli_fetch_assoc($sql_metrica_ontem);
+            
+            // Recuperar o valor de hoje
+            $sql_metrica_hoje = mysqli_query($conn, "SELECT COUNT(containers) as total FROM posicionamentos WHERE DATE_FORMAT(data_solicitado, '%Y-%m-%d') = '$today'");
+            $valor_hoje = mysqli_fetch_assoc($sql_metrica_hoje);
 
-        // Recuperar o valor de hoje
-        // $hoje = date('Y-m-d');
-        // $query = "SELECT valor FROM metricas WHERE DATE(datahora) = '$hoje'";
-        // $result = $mysqli->query($query);
-        // $valor_hoje = $result->fetch_assoc()['valor'];
+            // // Calcular a mudança percentual
+            $aumento_percentual = ($valor_hoje['total'] - $valor_ontem['total']) / $valor_ontem['total'] * 100;
 
-        // // Calcular a mudança percentual
-        // $aumento_percentual = ($valor_hoje - $valor_ontem) / $valor_ontem * 100;
+        // Posicionamentos priorizados
 
-        // echo "Aumento percentual desde ontem: " . round($aumento_percentual) . "%";
+            // Recuperar o valor de ontem
+            $sql_prioridade_ontem = mysqli_query($conn,"SELECT COUNT(prioridade_gestor) as total FROM posicionamentos WHERE DATE_FORMAT(data_solicitado, '%Y-%m-%d') = '$ontem' and prioridade_gestor = 'Sim'");
+            $valor_prioridade_ontem = mysqli_fetch_assoc($sql_prioridade_ontem);
+            
+            // Recuperar o valor de hoje
+            $sql_prioridade_hoje = mysqli_query($conn, "SELECT COUNT(prioridade_gestor) as total FROM posicionamentos WHERE DATE_FORMAT(data_solicitado, '%Y-%m-%d') = '$today' and prioridade_gestor = 'Sim'");
+            $valor_prioridade_hoje = mysqli_fetch_assoc($sql_prioridade_hoje);
+
+            // // Calcular a mudança percentual
+            if($valor_prioridade_ontem['total'] == 0) {
+                $aumento_percentual_pos_pri = ($valor_prioridade_hoje['total'] - $valor_prioridade_ontem['total']) / $valor_prioridade_hoje['total'] * 100;
+            } else {
+                $aumento_percentual_pos_pri = ($valor_prioridade_hoje['total'] - $valor_prioridade_ontem['total']) / $valor_prioridade_ontem['total'] * 100;
+            }
+
+
         
         
 

@@ -38,7 +38,7 @@ require_once 'requests/head.php'
                       <?php echo count($row_dados_posicionamento_hoje); ?>
                     </h5>
                     <p class="mb-0">
-                      <span class="text-success text-sm font-weight-bolder">+55%</span>
+                      <span <?php if(round($aumento_percentual) < 0) { echo 'class="text-danger text-sm font-weight-bolder"'; } ?>class="text-success text-sm font-weight-bolder"><?php if(round($aumento_percentual) < 0) { echo round($aumento_percentual) . '%'; } else { echo '+' . round($aumento_percentual) . '%'; }?></span>
                       desde ontem
                     </p>
                   </div>
@@ -63,8 +63,9 @@ require_once 'requests/head.php'
                         <?php echo $prioridade_sim; ?>
                     </h5>
                     <p class="mb-0">
-                      <span class="text-success text-sm font-weight-bolder">+5%</span> do que no mês passado
-                    </p>
+                    <span <?php if(round($aumento_percentual_pos_pri) < 0) { echo 'class="text-danger text-sm font-weight-bolder"'; } ?>class="text-success text-sm font-weight-bolder"><?php if(round($aumento_percentual_pos_pri) < 0) { echo round($aumento_percentual_pos_pri) . '%'; } else { echo '+' . round($aumento_percentual_pos_pri) . '%'; }?></span>
+                    desde ontem
+                  </p>
                   </div>
                 </div>
                 <div class="col-4 text-end">
@@ -112,8 +113,8 @@ require_once 'requests/head.php'
                       <?php if($row_media_horario_hoje['media_de_hoje'] == null) { echo '00:00:00'; } else { echo $row_media_horario_hoje['media_de_hoje']; } ?>
                     </h5>
                     <p class="mb-0">
-                      <span class="text-success text-sm font-weight-bolder">+3%</span>
-                      desde a semana passada
+                      <span class="text-success text-sm font-weight-bolder">+2%</span>
+                      desde o último trimestre
                     </p>
                   </div>
                 </div>
@@ -282,87 +283,87 @@ require_once 'requests/head.php'
   <script src="../assets/js/plugins/chartjs.min.js"></script>
 
   <script>
-    var ctx1 = document.getElementById("chart-line").getContext("2d");
+  // Código JavaScript para criar o gráfico com os dados obtidos do MySQLi
+  var ctx1 = document.getElementById("chart-line").getContext("2d");
 
-    var gradientStroke1 = ctx1.createLinearGradient(0, 230, 0, 50);
+  var gradientStroke1 = ctx1.createLinearGradient(0, 230, 0, 50);
+  gradientStroke1.addColorStop(1, 'rgba(94, 114, 228, 0.2)');
+  gradientStroke1.addColorStop(0.2, 'rgba(94, 114, 228, 0.0)');
+  gradientStroke1.addColorStop(0, 'rgba(94, 114, 228, 0)');
+  new Chart(ctx1, {
+    type: "line",
+    data: {
+      labels: <?php echo json_encode($meses); ?>,
+      datasets: [{
+        label: "Posicionamentos Realizados",
+        tension: 0.4,
+        borderWidth: 0,
+        pointRadius: 0,
+        borderColor: "#5e72e4",
+        backgroundColor: gradientStroke1,
+        borderWidth: 3,
+        fill: true,
+        data: <?php echo json_encode($posicionamentos); ?>,
+        maxBarThickness: 6
 
-    gradientStroke1.addColorStop(1, 'rgba(94, 114, 228, 0.2)');
-    gradientStroke1.addColorStop(0.2, 'rgba(94, 114, 228, 0.0)');
-    gradientStroke1.addColorStop(0, 'rgba(94, 114, 228, 0)');
-    new Chart(ctx1, {
-      type: "line",
-      data: {
-        labels: ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"],
-        datasets: [{
-          label: "Posicionamentos Realizados",
-          tension: 0.4,
-          borderWidth: 0,
-          pointRadius: 0,
-          borderColor: "#5e72e4",
-          backgroundColor: gradientStroke1,
-          borderWidth: 3,
-          fill: true,
-          data: [50, 40, 300, 220, 500, 250, 400, 230, 500, 100, 203, 222],
-          maxBarThickness: 6
-
-        }],
+      }],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          display: false,
+        }
       },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: {
-          legend: {
-            display: false,
+      interaction: {
+        intersect: false,
+        mode: 'index',
+      },
+      scales: {
+        y: {
+          grid: {
+            drawBorder: false,
+            display: true,
+            drawOnChartArea: true,
+            drawTicks: false,
+            borderDash: [5, 5]
+          },
+          ticks: {
+            display: true,
+            padding: 10,
+            color: '#fbfbfb',
+            font: {
+              size: 11,
+              family: "Open Sans",
+              style: 'normal',
+              lineHeight: 2
+            },
           }
         },
-        interaction: {
-          intersect: false,
-          mode: 'index',
-        },
-        scales: {
-          y: {
-            grid: {
-              drawBorder: false,
-              display: true,
-              drawOnChartArea: true,
-              drawTicks: false,
-              borderDash: [5, 5]
-            },
-            ticks: {
-              display: true,
-              padding: 10,
-              color: '#fbfbfb',
-              font: {
-                size: 11,
-                family: "Open Sans",
-                style: 'normal',
-                lineHeight: 2
+        x: {
+          grid: {
+                drawBorder: false,
+                display: false,
+                drawOnChartArea: false,
+                drawTicks: false,
+                borderDash: [5, 5]
               },
-            }
-          },
-          x: {
-            grid: {
-              drawBorder: false,
-              display: false,
-              drawOnChartArea: false,
-              drawTicks: false,
-              borderDash: [5, 5]
+              ticks: {
+                display: true,
+                color: '#ccc',
+                padding: 20,
+                font: {
+                  size: 11,
+                  family: "Open Sans",
+                  style: 'normal',
+                  lineHeight: 2
+                },
+              }
             },
-            ticks: {
-              display: true,
-              color: '#ccc',
-              padding: 20,
-              font: {
-                size: 11,
-                family: "Open Sans",
-                style: 'normal',
-                lineHeight: 2
-              },
-            }
           },
         },
-      },
-    });
+      });
   </script>
 
   <script>
