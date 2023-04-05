@@ -18,7 +18,6 @@ if(mysqli_num_rows($primeiro_login) == 1) {
   header("Location: ../../primeiro_login.php");
   exit();
 } else if (mysqli_num_rows($sql_login) == 1) {
-  session_start();
 
   $_SESSION['usuario'] = $usuario;
   $_SESSION['senha'] = $senha;
