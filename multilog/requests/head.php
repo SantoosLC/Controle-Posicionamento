@@ -29,3 +29,28 @@
   <!-- CSS Files -->
   <link id="pagestyle" href="../assets/css/argon-dashboard.css?v=2.0.4" rel="stylesheet" />
 </head>
+
+<style>
+  .dt-buttons {
+    display: flex !important;
+    align-self: center !important;
+    margin-right: 1.5rem !important;
+
+  }
+  button.dt-button.buttons-excel.buttons-html5.btn.bg-gradient-info.ml-auto.btn-sm.font-weight-bold.text-xs {
+    margin-left: auto !important;
+  }
+  a.paginate_button.current {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8392ab;
+    padding: 0;
+    margin: 0 3px;
+    border-radius: 50%!important;
+    width: 36px;
+    height: 36px;
+    font-size: .875rem;
+  }
+
+</style>

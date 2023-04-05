@@ -1,6 +1,7 @@
 <?php 
 session_start();
 require_once '../assets/conexao.php';
+require_once 'requests/planilha/estoque_containers.php';
 
 if (isset($_SESSION['usuario_logado']) && $_SESSION['usuario_logado'] == true) {
   echo "";
@@ -48,10 +49,11 @@ require_once 'requests/head.php'
                   <thead>
                     <tr>
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Armazem/doca</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Containers</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Container</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Cliente</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Registrado</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Realizado</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Data Planejado</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Data Posicionado</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -76,6 +78,10 @@ require_once 'requests/head.php'
                               $prioridade_gestor = $row['prioridade_gestor'];
 
                               $status = $row['status'];
+
+                              $containers_Loc = array_map('trim', explode(',', $row['containers']));
+                              $cliente_cntr = cliente_cntr($containers_Loc);
+
                         ?>
                     <tr>
                       <td>
@@ -90,7 +96,10 @@ require_once 'requests/head.php'
                         </div>
                       </td>
                       <td>
-                        <p class="text-xs font-weight-bold mb-0"><?php echo $containers;?></p>
+                        <p class="text-center text-uppercase text-xs font-weight-bold mb-0"><?php echo $containers;?></p>
+                      </td>
+                      <td>
+                        <p class="text-center text-uppercase text-xs font-weight-bold mb-0"><?php if($cliente_cntr == '') { echo "Não Encontrado"; } else { echo $cliente_cntr; } ?></p>
                       </td>
                       <td class="align-middle text-center text-sm">
                         <span <?php if($status == "Pendente") { echo 'class="badge badge-sm bg-gradient-warning"';} elseif($status == "Pendente - Prioridade Gestor") { echo 'class="badge badge-sm bg-gradient-danger"'; } ?> class="badge badge-sm bg-gradient-success"><?php echo $status;?></span>
@@ -186,11 +195,10 @@ require_once 'requests/head.php'
                     <div class="form-group">
                       <label>Containers</label>
                           <div id="container-input">
-                              <input type="text" class="form-control textarea" name="container[]" placeholder="Insira o container" required>
+                              <input type="text" class="form-control textarea cntr" name="container[]" placeholder="Insira o container" maxlength="12" minlength="11" required>
                           </div>
                         <button type="button" class="btn btn-primary" style="border-radius:55px; width:100%; margin-top:5px;" onclick="botaoMais()">Adicionar Container  <i class="bi bi-plus-circle"></i></button>
                     </div>
-
 
                     <label>Doca</label>
                     <div class="input-group mb-3">
@@ -262,16 +270,18 @@ require_once 'requests/head.php'
   </script>
 
   <script>
-  function botaoMais() {
+    function botaoMais() {
 			var div = document.getElementById("container-input");
 			var container_input = document.createElement("input");
 			container_input.type = "text";
-      container_input.name = "container[]";
-      container_input.classList.add("form-control");
-      container_input.classList.add("textarea");
-      container_input.style.marginTop = "10px";
-      container_input.placeholder = "Insira o container";
+            container_input.name = "container[]";
+            container_input.classList.add("form-control");
+            container_input.classList.add("textarea");
+            container_input.classList.add("cntr");
+            container_input.style.marginTop = "10px";
+            container_input.placeholder = "Insira o container";
 			div.appendChild(container_input);
+            
 		}
 
     $(document).ready(function() {

@@ -30,7 +30,7 @@ if(isset($_GET['id'])){
 	$email_posc = mysqli_query($conn, "SELECT * FROM posicionamentos WHERE id = $id");
 	$row_posc = mysqli_fetch_assoc($email_posc);
 	
-	$email = 'adm.l.oliveira@outlook.com.br';
+	$email = $row_posc['solicitado_por'];
 	$titulo = "Seu container foi posicionado.";
 	$mensagem = '<html><body><div class="container"><h4>Olá, ' . $row_posc['armazem'] . '</h4><p>Viemos notificar que seu container foi posicionado na doca ' . $row_posc['doca'] . ' com sucesso.</p><div class="alert alert-success" role="alert">Container: ' . $row_posc['containers'] . '</div></div></body></html>';
 

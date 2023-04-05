@@ -1,6 +1,7 @@
 <?php 
 session_start();
 require_once '../assets/conexao.php';
+require_once 'requests/planilha/estoque_containers.php';
 
 if (isset($_SESSION['usuario_logado']) && $_SESSION['usuario_logado'] == true) {
   echo "";
@@ -47,15 +48,18 @@ require_once 'requests/head.php'
                   <thead>
                     <tr>
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Armazem/doca</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Containers</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Container</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Endereco</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Cliente</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Registrado</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Realizado</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Data Planejado</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Data Posicionado</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Ações</th>
+                      <th style="display:none;">Solicitado Por</th>
                     </tr>
                   </thead>
                   <tbody>
-                        <?php $posicionamento_sql = mysqli_query($conn,"SELECT * FROM posicionamentos WHERE DATE_FORMAT(data_solicitado, '%Y-%m-%d') = '$today'"); 
+                        <?php $posicionamento_sql = mysqli_query($conn,"SELECT posicionamentos.*, web_login.nome FROM posicionamentos INNER JOIN web_login ON posicionamentos.solicitado_por = web_login.email"); 
                             while($row = mysqli_fetch_assoc($posicionamento_sql)) {
                               $data_solicitado = $row['data_solicitado'];      
                               $data_realizado_1 = $row['data_realizado'];
@@ -64,9 +68,13 @@ require_once 'requests/head.php'
                               $data_realizado = date("d/m/Y H:i:s", strtotime($data_realizado_1));
 
                               $solicitado_por = $row['solicitado_por'];
+                              $solicitado_por_nome = $row['nome'];
+
                               $realizado_por = $row['realizado_por'];
 
                               $containers = $row['containers'];
+                              $tamanho = $row['tamanho'];
+
                               $armazem = $row['armazem'];
                               $doca = $row['doca'];
 
@@ -74,6 +82,11 @@ require_once 'requests/head.php'
                               $prioridade_gestor = $row['prioridade_gestor'];
 
                               $status = $row['status'];
+
+                              $containers_Loc = array_map('trim', explode(',', $row['containers']));
+                              $localizacao = loc_cntr($containers_Loc);
+
+                              $cliente_cntr = cliente_cntr($containers_Loc);
                         ?>
                     <tr>
                       <td>
@@ -88,7 +101,13 @@ require_once 'requests/head.php'
                         </div>
                       </td>
                       <td>
-                        <p class="text-xs font-weight-bold mb-0"><?php echo $containers;?></p>
+                        <p class="text-xs font-weight-bold mb-0 text-center text-uppercase"><?php echo $containers;?></p>
+                      </td>
+                      <td>
+                        <p class="text-xs font-weight-bold mb-0 text-center"><?php if($localizacao == '') { echo "Não Encontrado"; } else { echo $localizacao; } ?></p>
+                      </td>
+                      <td>
+                        <p class="text-xs font-weight-bold mb-0 text-center"><?php if($cliente_cntr == '') { echo "Não Encontrado"; } else { echo $cliente_cntr; } ?></p>
                       </td>
                       <td class="align-middle text-center text-sm">
                         <span <?php if($status == "Pendente") { echo 'class="badge badge-sm bg-gradient-warning"';} elseif($status == "Pendente - Prioridade Gestor") { echo 'class="badge badge-sm bg-gradient-danger"'; } ?> class="badge badge-sm bg-gradient-success"><?php echo $status;?></span>
@@ -97,7 +116,7 @@ require_once 'requests/head.php'
                         <span class="text-secondary text-xs font-weight-bold"><?php echo $data_solicitado;?></span>
                       </td>
                       <td class="align-middle text-center">
-                      <span class="text-secondary text-xs font-weight-bold"><?php if($data_realizado_1 == null) {echo ''; } else { echo $data_realizado; }?></span>
+                      <span class="text-secondary text-xs font-weight-bold"><?php if($data_realizado_1 == null) {echo 'Aguardando'; } else { echo $data_realizado; }?></span>
                       </td>
                       <?php if($status == "Realizado") { echo '<td class="align-middle text-center"> </td>'; } else {
 
@@ -112,6 +131,9 @@ require_once 'requests/head.php'
                         </a>
                       </td>
                       <?php } ?>
+                      <td class="display:none;">
+                       <span style="display:none;"> <?php echo $solicitado_por_nome; ?> </span>
+                      </td>
                     </tr>
                     <?php } ?>
                   </tbody>
@@ -308,15 +330,15 @@ require_once 'requests/head.php'
           {
             extend: 'excelHtml5',
             text: 'Baixar Planilha',
-            className: 'btn bg-gradient-info ml-auto btn-sm',
+            className: 'btn bg-gradient-info ml-auto btn-sm font-weight-bold text-xs',
             exportOptions: {
-              columns: [0, 1, 2, 3],
+              columns: [1, 0, 2, 3, 5],
               customizeData: function ( data ) {
                 for (var i=0; i<data.body.length; i++) {
-                  data.body[i][0] = data.body[i][0].substring(0,8);
+                  data.body[i][1] = data.body[i][1].substring(0,8);
                 }
               }
-            }
+            },
           }
         ],
         "paging": true, // habilita paginação
