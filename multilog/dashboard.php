@@ -11,7 +11,7 @@ if (isset($_SESSION['usuario_logado']) && $_SESSION['usuario_logado'] == true) {
 
 $Pagina = "Dashboard";
 
-require_once 'requests/head.php'
+require_once 'requests/head.php';
 ?>
 
 <body class="g-sidenav-show bg-gray-100">
