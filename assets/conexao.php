@@ -73,8 +73,14 @@ $today = date("Y-m-d");
             $sql_metrica_hoje = mysqli_query($conn, "SELECT COUNT(containers) as total FROM posicionamentos WHERE DATE_FORMAT(data_solicitado, '%Y-%m-%d') = '$today'");
             $valor_hoje = mysqli_fetch_assoc($sql_metrica_hoje);
 
-            // // Calcular a mudança percentual
-            $aumento_percentual = ($valor_hoje['total'] - $valor_ontem['total']) / $valor_ontem['total'] * 100;
+            
+            if($valor_hoje['total'] == 0) {
+                $aumento_percentual = 0;
+            } else if($valor_ontem['total'] == 0) {
+                $aumento_percentual = 0;
+            } else {
+                $aumento_percentual = ($valor_hoje['total'] - $valor_ontem['total']) / $valor_ontem['total'] * 100;
+            }
 
         // Posicionamentos priorizados
 
@@ -86,13 +92,14 @@ $today = date("Y-m-d");
             $sql_prioridade_hoje = mysqli_query($conn, "SELECT COUNT(prioridade_gestor) as total FROM posicionamentos WHERE DATE_FORMAT(data_solicitado, '%Y-%m-%d') = '$today' and prioridade_gestor = 'Sim'");
             $valor_prioridade_hoje = mysqli_fetch_assoc($sql_prioridade_hoje);
 
-            // // Calcular a mudança percentual
+
             if($valor_prioridade_ontem['total'] == 0) {
-                $aumento_percentual_pos_pri = ($valor_prioridade_hoje['total'] - $valor_prioridade_ontem['total']) / $valor_prioridade_hoje['total'] * 100;
+                $aumento_percentual_pos_pri = 0;
+            } else if($valor_prioridade_hoje['total'] == 0) {
+                $aumento_percentual_pos_pri = 0;
             } else {
                 $aumento_percentual_pos_pri = ($valor_prioridade_hoje['total'] - $valor_prioridade_ontem['total']) / $valor_prioridade_ontem['total'] * 100;
             }
-
 
         
         
