@@ -12,7 +12,7 @@
     <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
         <ul class="navbar-nav">
         <li class="nav-item">
-            <a <?php if ($Pagina == 'Dashboard') { echo ' class="nav-link active"'; } ?> class="nav-link" href="../pages/dashboard.php">
+            <a <?php if ($Pagina == 'Dashboard') { echo ' class="nav-link active"'; } ?> class="nav-link" href="../multilog/dashboard.php">
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
                 <i class="ni ni-tv-2 text-primary text-sm opacity-10"></i>
             </div>
@@ -21,7 +21,7 @@
         </li>
 
         <li class="nav-item">
-            <a <?php if ($Pagina == 'Meu Perfil') { echo ' class="nav-link active"'; } ?> class="nav-link " href="../pages/profile.php">
+            <a <?php if ($Pagina == 'Meu Perfil') { echo ' class="nav-link active"'; } ?> class="nav-link " href="../multilog/meu_perfil.php">
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
                 <i class="ni ni-single-02 text-dark text-sm opacity-10"></i>
             </div>
@@ -30,7 +30,7 @@
         </li>
 
         <!-- <li class="nav-item"> 
-            <a class="nav-link" href="../pages/billing.php">
+            <a class="nav-link" href="../multilog/billing.php">
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
                 <i class="ni ni-credit-card text-success text-sm opacity-10"></i>
             </div>
@@ -45,7 +45,7 @@
         </li>
 
         <li class="nav-item">
-            <a <?php if ($Pagina == 'Armazem Posicionamento') { echo ' class="nav-link active"'; } ?> class="nav-link " href="../pages/posicionamento_armazem.php">
+            <a <?php if ($Pagina == 'Armazem Posicionamento') { echo ' class="nav-link active"'; } ?> class="nav-link " href="../multilog/posicionamento_armazem.php">
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
                 <i class="ni ni-calendar-grid-58 text-warning text-sm opacity-10"></i>
             </div>
@@ -62,7 +62,7 @@
         </li>
 
         <li class="nav-item">
-            <a <?php if ($Pagina == 'Patio Posicionamento') { echo ' class="nav-link active"'; } ?> class="nav-link " href="../pages/posicionamento_patio.php">
+            <a <?php if ($Pagina == 'Patio Posicionamento') { echo ' class="nav-link active"'; } ?> class="nav-link " href="../multilog/posicionamento_patio.php">
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
                 <i class="ni ni-calendar-grid-58 text-warning text-sm opacity-10"></i>
             </div>
@@ -79,7 +79,7 @@
         </li>
 
         <li class="nav-item">
-            <a <?php if ($Pagina == 'Controle Usuario') { echo ' class="nav-link active"'; } ?> class="nav-link " href="../pages/controle_usuario.php">
+            <a <?php if ($Pagina == 'Controle Usuario') { echo ' class="nav-link active"'; } ?> class="nav-link " href="../multilog/controle_usuario.php">
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
                 <i class="ni ni-calendar-grid-58 text-warning text-sm opacity-10"></i>
             </div>

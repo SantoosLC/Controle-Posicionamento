@@ -25,4 +25,4 @@ $_SESSION['foto'] = $foto;
 $confirmar_posicionamento = mysqli_query($conn, "UPDATE web_Login SET nome='$nome', senha='$senha', foto='$foto' WHERE id = $id"); 
 
 
-header("Location: ../profile.php");
+header("Location: ../meu_perfil.php");

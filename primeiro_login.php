@@ -46,11 +46,11 @@ session_start();
                     if(isset($_SESSION['login_success'])) {
                         echo "<div class='alert alert-success my-4 p-3 border'><p>".$_SESSION['login_success']."</p></div>";
                         unset($_SESSION['login_success']);
-                        echo '<script>setTimeout(function() { window.location.href = "pages/dashboard.php"; }, 3000);</script>';
+                        echo '<script>setTimeout(function() { window.location.href = "multilog/dashboard.php"; }, 3000);</script>';
                     }
   
                   ?>
-                  <form role="form" method="POST" action="pages/requests/primeiro_login.php">
+                  <form role="form" method="POST" action="multilog/requests/primeiro_login.php">
                     <div class="mb-3">
                       <input type="password" class="form-control form-control-lg" placeholder="Senha" aria-label="Password" name="senha">
                     </div>
