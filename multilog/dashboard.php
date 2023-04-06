@@ -424,7 +424,7 @@ require_once 'requests/head.php';
                   }
               });
           }
-          <?php unset($_SESSION['msg']); ?>
+          <?php unset($_SESSION['msg_arquivo']); ?>
       }
   </script>
 
