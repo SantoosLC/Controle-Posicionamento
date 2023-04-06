@@ -39,7 +39,7 @@ require_once 'requests/head.php'
           <div class="card mb-4">
             <div class="card-header pb-0">
               <div class="d-flex align-self-center">
-                <h6>Meus Posicionamentos de Hoje</h6>
+                <h6>Meus Posicionamentos de Hoje e Posicionamentos pendentes</h6>
                 <button  type="button" class="btn bg-gradient-info btn-block ms-auto btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalSignUp">Solicitar Posicionamento</button>
               </div>
             </div>
@@ -58,7 +58,7 @@ require_once 'requests/head.php'
                   </thead>
                   <tbody>
                         <?php 
-                        $posicionamento_sql = mysqli_query($conn,"SELECT * FROM posicionamentos WHERE armazem = '$armazem_responsavel' and DATE_FORMAT(data_solicitado, '%Y-%m-%d') = '$today' OR posicionamentos.status != 'Realizado' AND posicionamentos.data_solicitado < '$today'"); 
+                        $posicionamento_sql = mysqli_query($conn,"SELECT * FROM posicionamentos WHERE armazem = '$armazem_responsavel' and DATE_FORMAT(data_solicitado, '%Y-%m-%d') = '$today' OR status != 'Realizado' AND armazem = '$armazem_responsavel' AND data_solicitado < '$today'"); 
 
                             while($row = mysqli_fetch_assoc($posicionamento_sql)) {
                               $data_solicitado = $row['data_solicitado'];      
