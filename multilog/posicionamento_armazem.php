@@ -138,6 +138,8 @@ require_once 'requests/head.php'
                     $armazem = $row["armazem"];
                     $total_solicitado = $row["total_solicitados"];
                     $total_realizado = $row["total_realizados"];
+
+                    $media = ($total_solicitado + $total_realizado) / 2
                 ?>
 
                   <tr>
@@ -167,7 +169,7 @@ require_once 'requests/head.php'
                     <td class="align-middle text-sm">
                       <div class="col text-center">
                         <p class="text-xs font-weight-bold mb-0">Media:</p>
-                        <h6 class="text-sm mb-0">00.0%</h6>
+                        <h6 class="text-sm mb-0"><?php echo $media;?>%</h6>
                       </div>
                     </td>
                   </tr>

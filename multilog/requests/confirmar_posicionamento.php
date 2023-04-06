@@ -45,8 +45,9 @@ if(isset($_GET['id'])){
 	}
 } else if(isset($_GET['priorizar'])) {
     $id = $_GET['priorizar'];
+	$nome = $_SESSION['nome'];
 
-	$confirmar_posicionamento = mysqli_query($conn, "UPDATE posicionamentos SET prioridade_gestor='Sim', status='Pendente - Prioridade Gestor' WHERE id = $id"); 
+	$confirmar_posicionamento = mysqli_query($conn, "UPDATE posicionamentos SET prioridade_gestor='Sim', priorizado_por='$nome', status='Pendente - Prioridade Gestor' WHERE id = $id"); 
 	
 	if(mysqli_affected_rows($conn)){
 		$_SESSION['msg'] = "Posicionamento priorizado, já notificamos o patio";

@@ -217,6 +217,8 @@ require_once 'requests/head.php';
                     $armazem = $row["armazem"];
                     $total_solicitado = $row["total_solicitados"];
                     $total_realizado = $row["total_realizados"];
+
+                    $media = ($total_solicitado + $total_realizado) / 2
                 ?>
 
                   <tr>
@@ -246,7 +248,7 @@ require_once 'requests/head.php';
                     <td class="align-middle text-sm">
                       <div class="col text-center">
                         <p class="text-xs font-weight-bold mb-0">Media:</p>
-                        <h6 class="text-sm mb-0">00.0%</h6>
+                        <h6 class="text-sm mb-0"><?php echo $media;?>%</h6>
                       </div>
                     </td>
                   </tr>
@@ -276,6 +278,10 @@ require_once 'requests/head.php';
   </main>
 
   <!--   Core JS Files   -->
+  <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js" integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
   <script src="../assets/js/core/popper.min.js"></script>
   <script src="../assets/js/core/bootstrap.min.js"></script>
   <script src="../assets/js/plugins/perfect-scrollbar.min.js"></script>
@@ -374,6 +380,52 @@ require_once 'requests/head.php';
       }
       Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
     }
+  </script>
+
+  <script>
+      if ("<?php echo isset($_SESSION['msg_arquivo']) ? $_SESSION['msg_arquivo'] : ''; ?>" != "") {
+
+        var msg = "<?php echo $_SESSION['msg_arquivo']; ?>";
+
+          if (msg == "Arquivo enviado com sucesso!") {
+              Swal.fire({
+                  icon: 'success',
+                  title: 'Gerenciador de Arquivo',
+                  html: msg,
+                  timer: 3000,
+                  timerProgressBar: true,
+                  didOpen: () => {
+                    Swal.showLoading()
+                    const b = Swal.getHtmlContainer().querySelector('b')
+                    timerInterval = setInterval(() => {
+                      b.textContent = Swal.getTimerLeft()
+                    }, 100)
+                  },
+                  willClose: () => {
+                    clearInterval(timerInterval)
+                  }
+              });
+          } else {
+              Swal.fire({
+                  icon: 'error',
+                  title: 'Gerenciador de Arquivo',
+                  html: msg,
+                  timer: 3000,
+                  timerProgressBar: true,
+                  didOpen: () => {
+                    Swal.showLoading()
+                    const b = Swal.getHtmlContainer().querySelector('b')
+                    timerInterval = setInterval(() => {
+                      b.textContent = Swal.getTimerLeft()
+                    }, 100)
+                  },
+                  willClose: () => {
+                    clearInterval(timerInterval)
+                  }
+              });
+          }
+          <?php unset($_SESSION['msg']); ?>
+      }
   </script>
 
   <!-- Github buttons -->

@@ -40,6 +40,7 @@ require_once 'requests/head.php'
             <div class="card-header pb-0">
               <div class="d-flex align-self-center">
                 <h6>Unidades para posicionar hoje</h6>
+                <button id="cntrbtn" type="button" class="btn bg-gradient-info btn-block ms-auto btn-sm font-weight-bold">Atualizar Cntr. ‎ </button>
               </div>
             </div>
             <div class="card-body px-0 pt-0 pb-2">
@@ -55,7 +56,9 @@ require_once 'requests/head.php'
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Data Planejado</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Data Posicionado</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Ações</th>
-                      <th style="display:none;">Solicitado Por</th>
+                      <th style="display:none">Solicitado Por</th>
+                      <th style="display:none">Prioridade</th>
+                      <th style="display:none">Priorizado Por</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -71,6 +74,7 @@ require_once 'requests/head.php'
                               $solicitado_por_nome = $row['nome'];
 
                               $realizado_por = $row['realizado_por'];
+                              $prioridade = $row['prioridade'];
 
                               $containers = $row['containers'];
                               $tamanho = $row['tamanho'];
@@ -80,6 +84,7 @@ require_once 'requests/head.php'
 
                               $prioridade = $row['prioridade'];
                               $prioridade_gestor = $row['prioridade_gestor'];
+                              $priorizado_por = $row['priorizado_por'];
 
                               $status = $row['status'];
 
@@ -131,8 +136,14 @@ require_once 'requests/head.php'
                         </a>
                       </td>
                       <?php } ?>
-                      <td class="display:none;">
-                       <span style="display:none;"> <?php echo $solicitado_por_nome; ?> </span>
+                      <td style="display:none;">
+                       <span> <?php echo $solicitado_por_nome; ?> </span>
+                      </td>
+                      <td style="display:none;">
+                       <span> <?php if($prioridade_gestor == 'Sim') { echo 'Muito Alta - Gestor';} else { echo $prioridade; } ?> </span>
+                      </td>
+                      <td style="display:none;">
+                       <span> <?php if($prioridade_gestor == 'Sim') { echo $priorizado_por;} ?> </span>
                       </td>
                     </tr>
                     <?php } ?>
@@ -162,6 +173,8 @@ require_once 'requests/head.php'
                     $armazem = $row["armazem"];
                     $total_solicitado = $row["total_solicitados"];
                     $total_realizado = $row["total_realizados"];
+
+                    $media = ($total_solicitado + $total_realizado) / 2
                 ?>
 
                   <tr>
@@ -191,7 +204,7 @@ require_once 'requests/head.php'
                     <td class="align-middle text-sm">
                       <div class="col text-center">
                         <p class="text-xs font-weight-bold mb-0">Media:</p>
-                        <h6 class="text-sm mb-0">00.0%</h6>
+                        <h6 class="text-sm mb-0"><?php echo $media;?>%</h6>
                       </div>
                     </td>
                   </tr>
@@ -325,6 +338,7 @@ require_once 'requests/head.php'
   <script>
     $(document).ready(function() {
       $('.dataTable').DataTable({
+        responsive: true,
         dom: 'Bfrtip',
         buttons: [
           {
@@ -332,7 +346,7 @@ require_once 'requests/head.php'
             text: 'Baixar Planilha',
             className: 'btn bg-gradient-info ml-auto btn-sm font-weight-bold text-xs',
             exportOptions: {
-              columns: [1, 0, 2, 3, 5],
+              columns: [1, 0, 2, 3, 5, 9, 8, 10],
               customizeData: function ( data ) {
                 for (var i=0; i<data.body.length; i++) {
                   data.body[i][1] = data.body[i][1].substring(0,8);
@@ -341,6 +355,7 @@ require_once 'requests/head.php'
             },
           }
         ],
+        order: [[4, 'asc']],
         "paging": true, // habilita paginação
         "lengthChange": false, // desabilita opção de alterar número de registros por página
         "searching": true, // habilita pesquisa
@@ -364,6 +379,26 @@ require_once 'requests/head.php'
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="../assets/js/argon-dashboard.min.js?v=2.0.4"></script>
+
+  <script>
+    document.getElementById('cntrbtn').addEventListener('click', async () => {
+      new swal({
+        title: "Enviar arquivo",
+        html: '<form id="formUpload" action="requests/enviar_planilha-servidor.php" method="POST" enctype="multipart/form-data">' +
+              '<input type="file" name="arquivo" id="inputArquivo">' +
+              '</form>',
+        showCancelButton: true,
+        confirmButtonText: "Enviar",
+        cancelButtonText: "Cancelar",
+        preConfirm: function() {
+          return new Promise(function(resolve) {
+            document.getElementById("formUpload").submit();
+            resolve();
+          });
+        }
+      })
+  });
+  </script>
 </body>
 
 </html>
