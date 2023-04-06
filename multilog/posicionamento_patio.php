@@ -39,7 +39,7 @@ require_once 'requests/head.php'
           <div class="card mb-4">
             <div class="card-header pb-0">
               <div class="d-flex align-self-center">
-                <h6>Unidades para posicionar hoje</h6>
+                <h6>Unidades para posicionar hoje e posicionamentos pendentes</h6>
                 <button id="cntrbtn" type="button" class="btn bg-gradient-info btn-block ms-auto btn-sm font-weight-bold">Atualizar Cntr. ‎ </button>
               </div>
             </div>
@@ -62,7 +62,7 @@ require_once 'requests/head.php'
                     </tr>
                   </thead>
                   <tbody>
-                        <?php $posicionamento_sql = mysqli_query($conn,"SELECT posicionamentos.*, web_login.nome FROM posicionamentos INNER JOIN web_login ON posicionamentos.solicitado_por = web_login.email"); 
+                        <?php $posicionamento_sql = mysqli_query($conn,"SELECT posicionamentos.*, web_login.nome FROM posicionamentos INNER JOIN web_login ON posicionamentos.solicitado_por = web_login.email WHERE DATE_FORMAT(data_solicitado, '%Y-%m-%d') = '$today' OR posicionamentos.status != 'Realizado' AND posicionamentos.data_solicitado < '$today'"); 
                             while($row = mysqli_fetch_assoc($posicionamento_sql)) {
                               $data_solicitado = $row['data_solicitado'];      
                               $data_realizado_1 = $row['data_realizado'];

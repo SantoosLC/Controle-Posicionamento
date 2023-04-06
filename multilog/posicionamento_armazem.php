@@ -58,7 +58,7 @@ require_once 'requests/head.php'
                   </thead>
                   <tbody>
                         <?php 
-                        $posicionamento_sql = mysqli_query($conn,"SELECT * FROM posicionamentos WHERE armazem = '$armazem_responsavel' and DATE_FORMAT(data_solicitado, '%Y-%m-%d') = '$today'"); 
+                        $posicionamento_sql = mysqli_query($conn,"SELECT * FROM posicionamentos WHERE armazem = '$armazem_responsavel' and DATE_FORMAT(data_solicitado, '%Y-%m-%d') = '$today' OR posicionamentos.status != 'Realizado' AND posicionamentos.data_solicitado < '$today'"); 
 
                             while($row = mysqli_fetch_assoc($posicionamento_sql)) {
                               $data_solicitado = $row['data_solicitado'];      
