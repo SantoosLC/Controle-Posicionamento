@@ -9,7 +9,7 @@ if (isset($_SESSION['usuario_logado']) && $_SESSION['usuario_logado'] == true) {
   exit();
 }
 
-if ($permissao_user == 'Administrador') {
+if ($permissao_user == 'Administrador' or $permissao_user == 'Moderador') {
   echo "";
 } else {
   header("Location: dashboard.php");
@@ -142,7 +142,13 @@ require_once 'requests/head.php'
 
                     <label>Login</label>
                     <div class="input-group mb-3">
+
+                    <?php if($permissao_user == "Moderador") { ?>
                       <input type="text" class="form-control login" placeholder="Insira o login" name="login" required>
+                    <?php }else { ?>
+                      <input type="text" class="form-control login" placeholder="Insira o login" name="login" readonly>
+                    <?php } ?>
+
                     </div>
 
                     <label>Nome</label>
@@ -155,10 +161,23 @@ require_once 'requests/head.php'
                       <input type="email" class="form-control email" placeholder="Insira o email" name="email" required>
                     </div>
 
-                    <label>Cargo</label>
-                    <div class="input-group mb-3">
-                      <input type="text" class="form-control cargo" placeholder="Insira o cargo" name="cargo" required>
-                    </div>
+                    <?php if($permissao_user == "Moderador") { echo "";}else { ?>
+
+                      <label>Cargo</label>
+                      <div class="input-group mb-3">
+                        <select name="cargo" class="form-control cargo" >
+                          <option value="" selected>Selecione uma opção</option>
+                          <option value="Jovem Aprendiz">Jovem Aprendiz</option>
+                          <option value="Assistente de Operações">Assistente de Operações</option>
+                          <option value="Líder de Operações">Líder de Operações</option>
+                          <option value="Analista de Operações">Analista de Operações</option>
+                          <option value="Supervisor de Operações">Supervisor de Operações</option>
+                          <option value="Coordenador de Operações">Coordenador de Operações</option>
+                          <option value="Gerente de Operações">Gerente de Operações</option>
+                        </select>
+                      </div>
+
+                    <?php } ?>
 
                     <label>Area</label>
                     <div class="input-group mb-3">
@@ -169,14 +188,20 @@ require_once 'requests/head.php'
                       </select>
                     </div>
 
-                    <label>Status</label>
-                    <div class="input-group mb-3">
-                      <select name="status" class="form-control status" name="status" required>
-                        <option value="" disabled selected>Selecione o Status</option>
-                        <option value="Aprovado">Aprovado</option>
-                        <option value="Pendente">Pendente</option>
-                      </select>
-                    </div>
+                    <?php if($permissao_user == "Moderador") { echo "";}else { ?>
+
+                      <label>Status</label>
+                      <div class="input-group mb-3">
+                        <select name="status" class="form-control status" name="status" required>
+                          <option value="" disabled selected>Selecione o Status</option>
+                          <option value="Aprovado">Aprovado</option>
+                          <option value="Pendente">Pendente</option>
+                        </select>
+                      </div>
+
+                    <?php } ?>
+
+                    <?php if($permissao_user == "Moderador") { echo "";}else { ?>
 
                     <label>Permissao</label>
                     <div class="input-group mb-3">
@@ -186,6 +211,8 @@ require_once 'requests/head.php'
                         <option value="Administrador">Administrador</option>
                       </select>
                     </div>
+
+                    <?php } ?>
 
                     <label>Armazem Destinado</label>
                     <div class="input-group mb-3">
@@ -211,7 +238,7 @@ require_once 'requests/head.php'
                       </label>
                     </div>
                     <div class="text-center">
-                      <button type="submit" class="btn bg-gradient-primary btn-lg btn-rounded w-100 mt-4 mb-0">Solicitar</button>
+                      <button type="submit" class="btn bg-gradient-primary btn-lg btn-rounded w-100 mt-4 mb-0">Editar</button>
                     </div>
                   </form>
                 </div>
@@ -256,7 +283,16 @@ require_once 'requests/head.php'
 
                     <label>Cargo</label>
                     <div class="input-group mb-3">
-                      <input type="text" class="form-control cargo" placeholder="Insira o cargo" name="cargo" required>
+                        <select name="cargo" class="form-control cargo" >
+                          <option value="" selected>Selecione uma opção</option>
+                          <option value="Jovem Aprendiz">Jovem Aprendiz</option>
+                          <option value="Assistente de Operações">Assistente de Operações</option>
+                          <option value="Líder de Operações">Líder de Operações</option>
+                          <option value="Analista de Operações">Analista de Operações</option>
+                          <option value="Supervisor de Operações">Supervisor de Operações</option>
+                          <option value="Coordenador de Operações">Coordenador de Operações</option>
+                          <option value="Gerente de Operações">Gerente de Operações</option>
+                        </select>
                     </div>
 
                     <label>Area</label>
@@ -276,13 +312,16 @@ require_once 'requests/head.php'
                         <option value="Pendente">Pendente</option>
                       </select>
                     </div>
+                    
 
                     <label>Permissao</label>
                     <div class="input-group mb-3">
                       <select name="permissao" class="form-control permissao" name="permissao" required>
                         <option value="" disabled selected>Selecione a Permissao</option>
                         <option value="Padrao">Padrão</option>
+                        <?php if($permissao_user == "Moderador") { echo "";}else { ?>
                         <option value="Administrador">Administrador</option>
+                        <?php }?>
                       </select>
                     </div>
 
