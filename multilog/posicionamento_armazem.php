@@ -254,6 +254,8 @@ require_once 'requests/head.php'
 
   <!--   Core JS Files   -->
   <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js" integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
   <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
   
@@ -268,6 +270,30 @@ require_once 'requests/head.php'
         damping: '0.5'
       }
       Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+    }
+  </script>
+
+  <script>
+    if ("<?php echo isset($_SESSION['msg']) ? $_SESSION['msg'] : ''; ?>" != "") {
+
+        var msg = "<?php echo $_SESSION['msg']; ?>";
+
+        if (msg == "Solicitação realizada com sucesso.") {
+            Swal.fire({
+                icon: 'success',
+                title: msg,
+                showConfirmButton: false,
+                timer: 3000
+            });
+        } else {
+            Swal.fire({
+                icon: 'error',
+                title: msg,
+                showConfirmButton: false,
+                timer: 3000
+            });
+        }
+        <?php unset($_SESSION['msg']); ?>
     }
   </script>
 
