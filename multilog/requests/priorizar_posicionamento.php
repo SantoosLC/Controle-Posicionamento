@@ -20,18 +20,16 @@ if ($area_user == 'Patio' or $permissao_user == 'Administrador') {
     header("Location: dashboard.php");
 }
 
-
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	$ids = json_decode(file_get_contents("php://input"), true);
 
 	foreach ($ids as $id) {
-		$data_realizado = date("Y-m-d H:i:s");
 		$nome = $_SESSION['nome'];
-
-		$confirmar_posicionamento = mysqli_query($conn, "UPDATE posicionamentos SET data_realizado='$data_realizado', realizado_por='$nome', status='Realizado' WHERE id = $id"); 	
-}
+	
+		$priorizar_posicionamento = mysqli_query($conn, "UPDATE posicionamentos SET prioridade_gestor='Sim', priorizado_por='$nome', status='Pendente - Prioridade Gestor' WHERE id = $id"); 
+	}
 	// Envia a notificação
-	$_SESSION['msg'] = "Posicionamentos confirmados com sucesso!";
+	$_SESSION['msg'] = "Posicionamentos priorizados com sucesso!";
 
 	header('Content-Type: application/json');
  	echo json_encode(['message' => 'Posicionamentos confirmados com sucesso!']);

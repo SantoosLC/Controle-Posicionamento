@@ -17,6 +17,7 @@
 
   <!-- Buttons CSS -->
   <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.7.1/css/buttons.dataTables.min.css"/> -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/select/1.3.3/css/select.dataTables.min.css">
 
   <!-- Icones -->
   <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />

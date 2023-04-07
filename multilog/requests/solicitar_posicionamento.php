@@ -23,13 +23,13 @@ if ($area_user == 'Armazem' or $permissao_user == 'Administrador') {
 $usuario_email = $_SESSION['email'];
 
 $container = $_POST['container'];
-
 $doca = $_POST['doca'];
 $prioridade = $_POST['prioridade'];
 
 $data_solicitado = date("Y-m-d H:i:s");
 
 foreach ($container as $containers) {
+    $containers = strtoupper($containers);
     $solicitar_posicionamento =  mysqli_query($conn, "INSERT posicionamentos(containers, armazem, doca, prioridade, data_solicitado, data_realizado, solicitado_por) VALUES ('$containers','$armazem_responsavel','$doca','$prioridade', '$data_solicitado',null,'$usuario_email')");
 }
 

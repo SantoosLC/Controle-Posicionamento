@@ -16,7 +16,7 @@ if ($area_user == 'Patio' or $permissao_user == 'Administrador') {
   header("Location: dashboard.php");
 }
 
-$Pagina = "Patio Posicionamento";
+$Pagina = "Patio Posicionamento 2";
 
 require_once 'requests/head.php'
 ?>
@@ -39,10 +39,7 @@ require_once 'requests/head.php'
           <div class="card mb-4">
             <div class="card-header pb-0">
               <div class="d-flex align-self-center">
-                <h6>Unidades para posicionar hoje e posicionamentos pendentes</h6>
-                <button id="cntrbtn" type="button" class="btn bg-gradient-info btn-block ms-auto btn-sm font-weight-bold">Atualizar Cntr. ‎ </button>
-                <button style="margin-left:10px;" class="btn bg-gradient-info ml-auto btn-sm font-weight-bold text-xs" id="btn-solicitar-posicionamento">Confirmar Posicionamentos</button>
-                <button style="margin-left:10px;" class="btn bg-gradient-info ml-auto btn-sm font-weight-bold text-xs" id="btn-priorizar-posicionamento">Priorizar Posicionamentos</button>
+                <h6>Unidades posicionadas no ano de 2023</h6>
               </div>
             </div>
             <div class="card-body px-0 pt-0 pb-2">
@@ -50,7 +47,6 @@ require_once 'requests/head.php'
                 <table class="table align-items-center mb-0 dataTable">
                   <thead>
                     <tr>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"></th>
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Armazem/doca</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Container</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Endereco</th>
@@ -65,7 +61,7 @@ require_once 'requests/head.php'
                     </tr>
                   </thead>
                   <tbody>
-                        <?php $posicionamento_sql = mysqli_query($conn,"SELECT posicionamentos.*, web_login.nome FROM posicionamentos INNER JOIN web_login ON posicionamentos.solicitado_por = web_login.email WHERE DATE_FORMAT(data_solicitado, '%Y-%m-%d') = '$today' AND posicionamentos.status != 'Realizado' OR posicionamentos.status != 'Realizado' AND posicionamentos.data_solicitado < '$today'"); 
+                        <?php $posicionamento_sql = mysqli_query($conn,"SELECT posicionamentos.*, web_login.nome FROM posicionamentos INNER JOIN web_login ON posicionamentos.solicitado_por = web_login.email WHERE posicionamentos.status = 'Realizado'"); 
                             while($row = mysqli_fetch_assoc($posicionamento_sql)) {
                               $data_solicitado = $row['data_solicitado'];      
                               $data_realizado_1 = $row['data_realizado'];
@@ -99,7 +95,6 @@ require_once 'requests/head.php'
                               $cliente_cntr = cliente_cntr($containers_Loc);
                         ?>
                     <tr>
-                      <td></td>
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
@@ -115,10 +110,10 @@ require_once 'requests/head.php'
                         <p class="text-xs font-weight-bold mb-0 text-center text-uppercase"><?php echo $containers;?></p>
                       </td>
                       <td>
-                        <p class="text-xs font-weight-bold mb-0 text-center"><?php if($localizacao == '') { echo "Não Encontrado"; } else { echo $localizacao; } ?></p>
+                        <p class="text-xs font-weight-bold mb-0 text-center"><?php if($localizacao == '') { echo "Baixa no Sistema"; } else { echo $localizacao; } ?></p>
                       </td>
                       <td>
-                        <p class="text-xs font-weight-bold mb-0 text-center"><?php if($cliente_cntr == '') { echo "Não Encontrado"; } else { echo $cliente_cntr; } ?></p>
+                        <p class="text-xs font-weight-bold mb-0 text-center"><?php if($cliente_cntr == '') { echo "Baixa no Sistema"; } else { echo $cliente_cntr; } ?></p>
                       </td>
                       <td class="align-middle text-center text-sm">
                         <span <?php if($status == "Pendente") { echo 'class="badge badge-sm bg-gradient-warning"';} elseif($status == "Pendente - Prioridade Gestor") { echo 'class="badge badge-sm bg-gradient-danger"'; } ?> class="badge badge-sm bg-gradient-success"><?php echo $status;?></span>
@@ -175,7 +170,7 @@ require_once 'requests/head.php'
                 <tbody>
 
                 <?php 
-                  $status_desempenho = mysqli_query($conn, "SELECT armazem, COUNT(*) AS total_solicitados, COUNT(data_realizado) AS total_realizados FROM posicionamentos WHERE DATE_FORMAT(data_solicitado, '%Y-%m-%d') = '$today' GROUP BY armazem");
+                  $status_desempenho = mysqli_query($conn, "SELECT armazem, COUNT(*) AS total_solicitados, COUNT(data_realizado) AS total_realizados FROM posicionamentos GROUP BY armazem");
 
                   while ($row = mysqli_fetch_assoc($status_desempenho)) {
                   
@@ -295,51 +290,9 @@ require_once 'requests/head.php'
     });
   </script>
 
-    <script>
-        if ("<?php echo isset($_SESSION['msg']) ? $_SESSION['msg'] : ''; ?>" != "") {
-
-            var msg = "<?php echo $_SESSION['msg']; ?>";
-
-            if (msg == "Posicionamentos confirmados com sucesso!") {
-                Swal.fire({
-                    icon: 'success',
-                    title: msg,
-                    showConfirmButton: false,
-                    timer: 3000
-                });
-            } else if (msg == "Posicionamentos priorizados com sucesso") {
-                Swal.fire({
-                    icon: 'success',
-                    title: msg,
-                    showConfirmButton: false,
-                    timer: 3000
-                });
-               } else {
-                Swal.fire({
-                    icon: 'error',
-                    title: msg,
-                    showConfirmButton: false,
-                    timer: 3000
-                });
-            }
-            <?php unset($_SESSION['msg']); ?>
-        }
-    </script>
   <script>
     $(document).ready(function() {
       tabela = $('.dataTable').DataTable({
-        select: {
-          style: 'multi'
-        },
-        columnDefs: [{
-          orderable: false,
-          className: 'select-checkbox',
-          targets: 0
-        }],
-        select: {
-          style:    'os',
-          selector: 'td:first-child'
-        },
         responsive: true,
         dom: 'Bfrtip',
         buttons: [
@@ -348,7 +301,7 @@ require_once 'requests/head.php'
             text: 'Baixar Planilha',
             className: 'btn bg-gradient-info ml-auto btn-sm font-weight-bold text-xs',
             exportOptions: {
-              columns: [2, 1, 3, 4, 6, 10, 11, 9],
+              columns: [1, 0, 2, 3, 5, 9, 10, 8],
               customizeData: function ( data ) {
                 for (var i=0; i<data.body.length; i++) {
                   data.body[i][1] = data.body[i][1].substring(0,8);
@@ -357,10 +310,7 @@ require_once 'requests/head.php'
             },
           }
         ],
-        select: {
-          style: 'multi'
-        },
-        order: [[4, 'asc']],
+        order: [[6, 'asc']],
         "paging": true, // habilita paginação
         "lengthChange": false, // desabilita opção de alterar número de registros por página
         "searching": true, // habilita pesquisa
@@ -381,88 +331,10 @@ require_once 'requests/head.php'
     });
   </script>
 
-  <script>
-    $('#btn-solicitar-posicionamento').click(function(e) {
-      e.preventDefault();
-      
-      var selectedRows = tabela.rows({ selected: true }).data().toArray();
-      var ids = [];
-
-      selectedRows.forEach(function(row, index) {
-        var id = row[8];
-        ids.push(id);
-      });
-
-      // Envia a lista de IDs para o PHP via AJAX
-      $.ajax({
-          url: 'requests/confirmar_posicionamento.php',
-          type: 'POST',
-          data: JSON.stringify(ids),
-          contentType: 'application/json',
-          success: function(response) {
-            console.log(response);
-            // Redireciona para a página de posicionamento_patio.php
-            window.location.href = 'posicionamento_patio.php';
-          },
-          error: function(error) {
-            console.log(error);
-          }
-        });
-      });
-
-      $('#btn-priorizar-posicionamento').click(function(e) {
-        e.preventDefault();
-        
-        var selectedRows = tabela.rows({ selected: true }).data().toArray();
-        var ids = [];
-
-        selectedRows.forEach(function(row, index) {
-          var id = row[8];
-          ids.push(id);
-      });
-
-      // Envia a lista de IDs para o PHP via AJAX
-      $.ajax({
-          url: 'requests/priorizar_posicionamento.php',
-          type: 'POST',
-          data: JSON.stringify(ids),
-          contentType: 'application/json',
-          success: function(response) {
-            console.log(response);
-            // Redireciona para a página de priorizar_posicionamento.php
-            window.location.href = 'posicionamento_patio.php';
-          },
-          error: function(error) {
-            console.log(error);
-          }
-        });
-      });
-  </script>
-
   <!-- Github buttons -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="../assets/js/argon-dashboard.min.js?v=2.0.4"></script>
-
-  <script>
-    document.getElementById('cntrbtn').addEventListener('click', async () => {
-      new swal({
-        title: "Enviar arquivo",
-        html: '<form id="formUpload" action="requests/enviar_planilha-servidor.php" method="POST" enctype="multipart/form-data">' +
-              '<input type="file" name="arquivo" id="inputArquivo">' +
-              '</form>',
-        showCancelButton: true,
-        confirmButtonText: "Enviar",
-        cancelButtonText: "Cancelar",
-        preConfirm: function() {
-          return new Promise(function(resolve) {
-            document.getElementById("formUpload").submit();
-            resolve();
-          });
-        }
-      })
-  });
-  </script>
 </body>
 
 </html>
