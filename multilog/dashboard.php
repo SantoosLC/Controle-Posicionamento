@@ -15,7 +15,9 @@ require_once 'requests/head.php';
 ?>
 
 <body class="g-sidenav-show bg-gray-100">
-  <div class="min-height-300 bg-primary position-absolute w-100"></div>
+    <div class="position-absolute w-100 min-height-300 top-0" style="background-image: url('https://www.logweb.com.br/wp-content/uploads/2022/12/Multilog-OEA.jpg'); background-position-y: 50%;">
+    <span class="mask bg-primary opacity-6"></span>
+  </div>
   
   <!-- Menu - Sidebar -->
 

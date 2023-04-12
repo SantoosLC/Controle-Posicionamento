@@ -21,7 +21,9 @@ require_once 'requests/head.php'
 ?>
 
 <body class="g-sidenav-show   bg-gray-100">
-  <div class="min-height-300 bg-primary position-absolute w-100"></div>
+    <div class="position-absolute w-100 min-height-300 top-0" style="background-image: url('https://www.logweb.com.br/wp-content/uploads/2022/12/Multilog-OEA.jpg'); background-position-y: 50%;">
+    <span class="mask bg-primary opacity-6"></span>
+  </div>
 
   <!-- Menu - Sidebar -->
 
@@ -51,6 +53,7 @@ require_once 'requests/head.php'
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Login</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Area</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Armazem</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Cargo</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Permissão</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Ações</th>
@@ -65,6 +68,7 @@ require_once 'requests/head.php'
                               $email = $row['email'];
                               $cargo = $row['cargo'];
                               $area = $row['area'];
+                              $armazem = $row['armazem'];
                               $status = $row['status'];
                               $permissao = $row['permissao'];
                               $armazem = $row['armazem'];
@@ -90,6 +94,9 @@ require_once 'requests/head.php'
                       </td>
                       <td class="align-middle text-center">
                         <span class="text-secondary text-xs font-weight-bold"><?php echo $area;?></span>
+                      </td>
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold"><?php if($area == "Patio") { echo "N/A"; } else { echo $armazem; }?></span>
                       </td>
                       <td class="align-middle text-center">
                         <span class="text-secondary text-xs font-weight-bold"><?php echo $cargo;?></span>
@@ -174,6 +181,8 @@ require_once 'requests/head.php'
                           <option value="Supervisor de Operações">Supervisor de Operações</option>
                           <option value="Coordenador de Operações">Coordenador de Operações</option>
                           <option value="Gerente de Operações">Gerente de Operações</option>
+                          <option value="Analista Aduaneiro">Analista Aduaneiro</option>
+                          <option value="Assistente Aduaneiro">Assistente Aduaneiro</option>
                         </select>
                       </div>
 
@@ -185,6 +194,7 @@ require_once 'requests/head.php'
                         <option value="" disabled selected>Selecione a area</option>
                         <option value="Patio">Patio</option>
                         <option value="Armazem">Armazem</option>
+                        <option value="Aduaneiro">Aduaneiro</option>
                       </select>
                     </div>
 
@@ -292,6 +302,8 @@ require_once 'requests/head.php'
                           <option value="Supervisor de Operações">Supervisor de Operações</option>
                           <option value="Coordenador de Operações">Coordenador de Operações</option>
                           <option value="Gerente de Operações">Gerente de Operações</option>
+                          <option value="Analista Aduaneiro">Analista Aduaneiro</option>
+                          <option value="Assistente Aduaneiro">Assistente Aduaneiro</option>
                         </select>
                     </div>
 
@@ -301,6 +313,7 @@ require_once 'requests/head.php'
                         <option value="" disabled selected>Selecione a area</option>
                         <option value="Patio">Patio</option>
                         <option value="Armazem">Armazem</option>
+                        <option value="Aduaneiro">Aduaneiro</option>
                       </select>
                     </div>
 
@@ -321,6 +334,7 @@ require_once 'requests/head.php'
                         <option value="Padrao">Padrão</option>
                         <?php if($permissao_user == "Moderador") { echo "";}else { ?>
                         <option value="Administrador">Administrador</option>
+                        <option value="Moderador">Moderador</option>
                         <?php }?>
                       </select>
                     </div>

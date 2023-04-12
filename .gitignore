@@ -1,1 +1,5 @@
 multilog/requests/planilha/estoque_em_container_cheio.csv
+assets/img/fotos_usuarios/*
+multilog/requests/error_log
+multilog/requests/lib/error_log
+

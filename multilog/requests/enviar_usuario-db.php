@@ -34,7 +34,7 @@ $row_user = mysqli_fetch_assoc($select_usuario);
 
 $titulo = "Parabéns, seu usuario foi criado.";
 
-$mensagem = '<html><body><div class="container"><h4>Olá, ' . $row_user['nome'] . '</h4><p> Parabéns, seu usuario na plataforma de posicionamentos foi criado. Segue informações: <br> Usuario: '. $row_user['login'] . ' | Senha: '. $row_user['senha'] . ' </div></div></body></html>';
+$mensagem = '<html><body><div class="container"><h4>Olá, ' . $row_user['nome'] . '</h4><p> Parabéns, seu usuario na plataforma de posicionamentos da multilog foi criado. Segue informações: <br> Usuario: '. $row_user['login'] . ' | Senha: '. $row_user['senha'] . ' <br> Link: https://lksagenciadigital.com.br </div></div></body></html>';
 
 enviar_email($email, $titulo, $mensagem);
 

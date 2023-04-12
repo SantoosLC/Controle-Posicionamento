@@ -22,7 +22,7 @@ $_SESSION['nome'] = $nome;
 $_SESSION['senha'] = $senha;
 $_SESSION['foto'] = $foto;
 
-$confirmar_posicionamento = mysqli_query($conn, "UPDATE web_Login SET nome='$nome', senha='$senha', foto='$foto' WHERE id = $id"); 
+$editar_user = mysqli_query($conn, "UPDATE web_login SET nome='$nome', senha='$senha', foto='$foto' WHERE id = $id"); 
 
 
 header("Location: ../meu_perfil.php");

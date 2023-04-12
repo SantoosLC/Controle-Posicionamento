@@ -22,7 +22,9 @@ require_once 'requests/head.php'
 ?>
 
 <body class="g-sidenav-show   bg-gray-100">
-  <div class="min-height-300 bg-primary position-absolute w-100"></div>
+    <div class="position-absolute w-100 min-height-300 top-0" style="background-image: url('https://www.logweb.com.br/wp-content/uploads/2022/12/Multilog-OEA.jpg'); background-position-y: 50%;">
+    <span class="mask bg-primary opacity-6"></span>
+  </div>
 
   <!-- Menu - Sidebar -->
 
@@ -50,6 +52,7 @@ require_once 'requests/head.php'
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Armazem/doca</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Container</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Endereco</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Sob Rodas</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Cliente</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Data Planejado</th>
@@ -61,7 +64,7 @@ require_once 'requests/head.php'
                     </tr>
                   </thead>
                   <tbody>
-                        <?php $posicionamento_sql = mysqli_query($conn,"SELECT posicionamentos.*, web_login.nome FROM posicionamentos INNER JOIN web_login ON posicionamentos.solicitado_por = web_login.email WHERE posicionamentos.status = 'Realizado'"); 
+                        <?php $posicionamento_sql = mysqli_query($conn,"SELECT posicionamentos.*, web_login.nome, web_login.foto FROM posicionamentos INNER JOIN web_login ON posicionamentos.solicitado_por = web_login.email WHERE posicionamentos.status = 'Realizado'"); 
                             while($row = mysqli_fetch_assoc($posicionamento_sql)) {
                               $data_solicitado = $row['data_solicitado'];      
                               $data_realizado_1 = $row['data_realizado'];
@@ -80,6 +83,7 @@ require_once 'requests/head.php'
 
                               $armazem = $row['armazem'];
                               $doca = $row['doca'];
+                              $sobrodas = $row['sobrodas'];
 
                               $prioridade = $row['prioridade'];
                               $prioridade_gestor = $row['prioridade_gestor'];
@@ -87,6 +91,7 @@ require_once 'requests/head.php'
 
                               $status = $row['status'];
 
+                              $foto = $row['foto'];
                               $id = $row['id'];
 
                               $containers_Loc = array_map('trim', explode(',', $row['containers']));
@@ -98,7 +103,7 @@ require_once 'requests/head.php'
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="../assets/img/favicon.png" class="avatar avatar-sm me-3" alt="user1">
+                            <img src="<?php echo $foto ?>" class="avatar avatar-sm me-3" alt="user1">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
                             <h6 class="mb-0 text-sm"><?php echo $armazem.'-'.$doca;?></h6>
@@ -111,6 +116,9 @@ require_once 'requests/head.php'
                       </td>
                       <td>
                         <p class="text-xs font-weight-bold mb-0 text-center"><?php if($localizacao == '') { echo "Baixa no Sistema"; } else { echo $localizacao; } ?></p>
+                      </td>
+                      <td>
+                        <p class="text-xs font-weight-bold mb-0 text-center"><?php echo $sobrodas ?></p>
                       </td>
                       <td>
                         <p class="text-xs font-weight-bold mb-0 text-center"><?php if($cliente_cntr == '') { echo "Baixa no Sistema"; } else { echo $cliente_cntr; } ?></p>
@@ -301,10 +309,10 @@ require_once 'requests/head.php'
             text: 'Baixar Planilha',
             className: 'btn bg-gradient-info ml-auto btn-sm font-weight-bold text-xs',
             exportOptions: {
-              columns: [1, 0, 2, 3, 5, 9, 10, 8],
+              columns: [1, 3, 0, 2, 4, 6, 8, 11, 9],
               customizeData: function ( data ) {
                 for (var i=0; i<data.body.length; i++) {
-                  data.body[i][1] = data.body[i][1].substring(0,8);
+                  data.body[i][2] = data.body[i][2].substring(0,8);
                 }
               }
             },

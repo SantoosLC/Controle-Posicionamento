@@ -22,7 +22,9 @@ require_once 'requests/head.php'
 ?>
 
 <body class="g-sidenav-show   bg-gray-100">
-  <div class="min-height-300 bg-primary position-absolute w-100"></div>
+  <div class="position-absolute w-100 min-height-300 top-0" style="background-image: url('https://www.logweb.com.br/wp-content/uploads/2022/12/Multilog-OEA.jpg'); background-position-y: 50%;">
+    <span class="mask bg-primary opacity-6"></span>
+  </div>
 
   <!-- Menu - Sidebar -->
 
@@ -51,6 +53,11 @@ require_once 'requests/head.php'
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Armazem/doca</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Container</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Cliente</th>
+
+                      <?php if($armazem_responsavel == 'PS') { ?>
+                        <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Sob Rodas</th>
+                      <?php } ?>
+
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Data Planejado</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Data Posicionado</th>
@@ -58,7 +65,7 @@ require_once 'requests/head.php'
                   </thead>
                   <tbody>
                         <?php 
-                        $posicionamento_sql = mysqli_query($conn,"SELECT * FROM posicionamentos WHERE armazem = '$armazem_responsavel' and DATE_FORMAT(data_solicitado, '%Y-%m-%d') = '$today' OR status != 'Realizado' AND armazem = '$armazem_responsavel' AND data_solicitado < '$today'"); 
+                        $posicionamento_sql = mysqli_query($conn,"SELECT posicionamentos.*, web_login.foto, web_login.nome FROM posicionamentos INNER JOIN web_login ON posicionamentos.solicitado_por = web_login.email WHERE posicionamentos.armazem = '$armazem_responsavel' and DATE_FORMAT(data_solicitado, '%Y-%m-%d') = '$today' OR posicionamentos.status != 'Realizado' AND posicionamentos.armazem = '$armazem_responsavel' AND posicionamentos.data_solicitado < '$today'"); 
 
                             while($row = mysqli_fetch_assoc($posicionamento_sql)) {
                               $data_solicitado = $row['data_solicitado'];      
@@ -69,6 +76,7 @@ require_once 'requests/head.php'
 
                               $solicitado_por = $row['solicitado_por'];
                               $realizado_por = $row['realizado_por'];
+                              $sobrodas = $row['sobrodas'];
 
                               $containers = $row['containers'];
                               $armazem = $row['armazem'];
@@ -78,6 +86,7 @@ require_once 'requests/head.php'
                               $prioridade_gestor = $row['prioridade_gestor'];
 
                               $status = $row['status'];
+                              $foto = $row['foto'];
 
                               $containers_Loc = array_map('trim', explode(',', $row['containers']));
                               $cliente_cntr = cliente_cntr($containers_Loc);
@@ -87,7 +96,7 @@ require_once 'requests/head.php'
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="../assets/img/favicon.png" class="avatar avatar-sm me-3" alt="user1">
+                            <img src="<?php echo $foto ?>" class="avatar avatar-sm me-3" alt="user1">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
                             <h6 class="mb-0 text-sm"><?php echo $armazem.'-'.$doca;?></h6>
@@ -101,6 +110,13 @@ require_once 'requests/head.php'
                       <td>
                         <p class="text-center text-uppercase text-xs font-weight-bold mb-0"><?php if($cliente_cntr == '') { echo "Não Encontrado"; } else { echo $cliente_cntr; } ?></p>
                       </td>
+                      
+                      <?php if($armazem_responsavel == 'PS') { ?>
+                        <td>
+                        <p class="text-center text-uppercase text-xs font-weight-bold mb-0"> <?php echo $sobrodas ?> </p>
+                        </td>
+                      <?php } ?>
+
                       <td class="align-middle text-center text-sm">
                         <span <?php if($status == "Pendente") { echo 'class="badge badge-sm bg-gradient-warning"';} elseif($status == "Pendente - Prioridade Gestor") { echo 'class="badge badge-sm bg-gradient-danger"'; } ?> class="badge badge-sm bg-gradient-success"><?php echo $status;?></span>
                       </td>
@@ -108,7 +124,7 @@ require_once 'requests/head.php'
                         <span class="text-secondary text-xs font-weight-bold"><?php echo $data_solicitado;?></span>
                       </td>
                       <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold"><?php if($data_realizado_1 == null) {echo ''; } else { echo $data_realizado; }?></span>
+                        <span class="text-secondary text-xs font-weight-bold"><?php if($data_realizado_1 == null) {echo 'Pendente'; } else { echo $data_realizado; }?></span>
                       </td>
                     </tr>
                     <?php } ?>
@@ -204,7 +220,19 @@ require_once 'requests/head.php'
 
                     <label>Doca</label>
                     <div class="input-group mb-3">
-                      <input type="number" class="form-control" placeholder="Insira a Doca" name="doca" required>
+                      <select name="doca" class="form-control" required>
+                        <option value="01" disabled selected>Selecione a Doca</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                      </select>
                     </div>
 
                     <label>Prioridade</label>
@@ -216,6 +244,19 @@ require_once 'requests/head.php'
                         <option value="Alta">Alta</option>
                       </select>
                     </div>
+
+                    <?php if($armazem_responsavel == "PS") { ?>
+
+                    <label>Operação Sob Rodas?</label>
+                    <div class="input-group mb-3">
+                      <select name="sob-rodas" class="form-control" required>
+                        <option value="" disabled selected>Selecione a Prioridade</option>
+                        <option value="Sim">Sim</option>
+                        <option value="Não">Não</option>
+                      </select>
+                    </div>
+
+                    <?php } ?>
 
                     <div class="form-check form-check-info text-left">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked="" required>

@@ -11,11 +11,15 @@ if (isset($_SESSION['usuario_logado']) && $_SESSION['usuario_logado'] == true) {
 
 $Pagina = "Meu Perfil";
 
-require_once 'requests/head.php'
+$id = $_SESSION['id'];
+$sql = mysqli_query($conn, "SELECT * FROM web_login WHERE id = '$id' ");
+$row = mysqli_fetch_assoc($sql);
+                
+require_once 'requests/head.php';
 ?>
 
 <body class="g-sidenav-show bg-gray-100">
-  <div class="position-absolute w-100 min-height-300 top-0" style="background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/profile-layout-header.jpg'); background-position-y: 50%;">
+  <div class="position-absolute w-100 min-height-300 top-0" style="background-image: url('https://www.logweb.com.br/wp-content/uploads/2022/12/Multilog-OEA.jpg'); background-position-y: 50%;">
     <span class="mask bg-primary opacity-6"></span>
   </div>
 
@@ -32,16 +36,16 @@ require_once 'requests/head.php'
         <div class="row gx-4">
           <div class="col-auto">
             <div class="avatar avatar-xl position-relative">
-              <img src="<?php echo $_SESSION['foto']; ?>" alt="profile_image" class="w-100 border-radius-lg shadow-sm">
+              <img src="<?php echo $row['foto']; ?>" alt="profile_image" class="w-100 border-radius-lg shadow-sm">
             </div>
           </div>
           <div class="col-auto my-auto">
             <div class="h-100">
               <h5 class="mb-1">
-                <?php echo $_SESSION['nome']; ?>
+                <?php echo $row['nome']; ?>
               </h5>
               <p class="mb-0 font-weight-bold text-sm">
-                <?php echo $_SESSION['cargo']; ?>
+                <?php echo $row['cargo']; ?>
               </p>
             </div>
           </div>
@@ -70,6 +74,7 @@ require_once 'requests/head.php'
       <div class="row">
         <div class="col-md-8">
           <div class="card">
+              
             <div class="card-header pb-0">
               <div class="d-flex align-items-center">
                 <p class="mb-0">Editar Perfil</p>
@@ -82,31 +87,31 @@ require_once 'requests/head.php'
                 <div class="col-md-6">
                     <div class="form-group">
                       <label for="example-text-input" class="form-control-label">Usuario</label>
-                      <input class="form-control" type="text" name="usuario" value="<?php echo $_SESSION['usuario']; ?>" disabled>
+                      <input class="form-control" type="text" name="usuario" value="<?php echo $row['login']; ?>" disabled>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
                       <label for="example-text-input" class="form-control-label">E-Mail</label>
-                      <input class="form-control" type="email" value="<?php echo $_SESSION['email']; ?>" disabled>
+                      <input class="form-control" type="email" value="<?php echo $row['email']; ?>" disabled>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
                       <label for="example-text-input" class="form-control-label">Nome</label>
-                      <input class="form-control" type="text" name="nome" value="<?php echo $_SESSION['nome']; ?>">
+                      <input class="form-control" type="text" name="nome" value="<?php echo $row['nome']; ?>">
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
                       <label for="example-text-input" class="form-control-label">Senha</label>
-                      <input class="form-control" type="password" name="senha" value="<?php echo $_SESSION['senha']; ?>">
+                      <input class="form-control" type="password" name="senha" value="<?php echo $row['senha']; ?>">
                     </div>
                   </div>
                   <div class="col-md-12">
                     <div class="form-group">
                       <label for="example-text-input" class="form-control-label">Foto de Perfil</label>
-                      <input class="form-control" type="text" name="foto" value="<?php echo $_SESSION['foto']; ?>">
+                      <input class="form-control" type="text" name="foto" value="<?php echo $row['foto']; ?>">
                     </div>
                   </div>
                 </div>
@@ -115,13 +120,13 @@ require_once 'requests/head.php'
                   <div class="col-md-12">
                     <div class="form-group">
                       <label for="example-text-input" class="form-control-label">Gestor Imediato</label>
-                      <input class="form-control" type="text" value="Willian Alexandre da Conceição" disabled>
+                      <input class="form-control" type="text" value="<?php echo $row['gestor']; ?>" disabled>
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="form-group">
                       <label for="example-text-input" class="form-control-label">Nivel de Acesso</label>
-                      <input class="form-control" type="text" value="Administrador" disabled>
+                      <input class="form-control" type="text" value="<?php echo $permissao_user; ?>" disabled>
                     </div>
                   </div>
                   <div class="col-md-4">
@@ -130,12 +135,27 @@ require_once 'requests/head.php'
                       <input class="form-control" type="text" value="Multilog SA" disabled>
                     </div>
                   </div>
+                  
+                  <?php if($area_user == "Patio") { ?>
+                  
                   <div class="col-md-4">
                     <div class="form-group">
                       <label for="example-text-input" class="form-control-label">Posto de Trabalho</label>
-                      <input class="form-control" type="text" value="AZ1" disabled>
+                      <input class="form-control" type="text" value="Patio" disabled>
                     </div>
                   </div>
+                  
+                  <?php }else { ?>
+                  
+                   <div class="col-md-4">
+                    <div class="form-group">
+                      <label for="example-text-input" class="form-control-label">Posto de Trabalho</label>
+                      <input class="form-control" type="text" value="<?php echo $armazem_responsavel ?>" disabled>
+                    </div>
+                  </div>
+                  
+                  <?php }?>
+                  
                   <div class="col-md-6">
                     <br><br>
                       <?php $id_usuario = $_SESSION['id']; ?>

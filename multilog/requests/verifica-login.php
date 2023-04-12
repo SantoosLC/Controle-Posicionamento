@@ -27,6 +27,7 @@ if(mysqli_num_rows($primeiro_login) == 1) {
   $_SESSION['foto'] = $dados['foto'];
   $_SESSION['email'] = $dados['email'];
   $_SESSION['armazem'] = $dados['armazem'];
+  $_SESSION['gestor'] = $dados['gestor'];
   $_SESSION['usuario_logado'] = true;
 
   $_SESSION['login_success'] = "Entrando, aguarde...";

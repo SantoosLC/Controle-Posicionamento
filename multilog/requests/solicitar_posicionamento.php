@@ -26,6 +26,12 @@ $container = $_POST['container'];
 $doca = $_POST['doca'];
 $prioridade = $_POST['prioridade'];
 
+if ($armazem_responsavel == "PS") {
+    $sobrodas = $_POST['sob-rodas'];
+} else {
+    $sobrodas = "Não";
+}
+
 $data_solicitado = date("Y-m-d H:i:s");
 
 foreach ($container as $containers) {
@@ -36,7 +42,7 @@ foreach ($container as $containers) {
     if(mysqli_num_rows($consulta_posicionamento) == 1) {
       $_SESSION['msg'] = "Esse container já está cadastrado para posicionamento, ou ja foi posicionado";
     } else {
-      $solicitar_posicionamento =  mysqli_query($conn, "INSERT posicionamentos(containers, armazem, doca, prioridade, data_solicitado, data_realizado, solicitado_por) VALUES ('$containers','$armazem_responsavel','$doca','$prioridade', '$data_solicitado',null,'$usuario_email')");
+      $solicitar_posicionamento =  mysqli_query($conn, "INSERT posicionamentos(containers, armazem, doca, sobrodas, prioridade, data_solicitado, data_realizado, solicitado_por) VALUES ('$containers','$armazem_responsavel','$doca','$sobrodas','$prioridade', '$data_solicitado',null,'$usuario_email')");
       $_SESSION['msg'] = "Solicitação realizada com sucesso.";
     }
 }

@@ -8,7 +8,8 @@
     $db = "lksa8668_multilog"; // Nome do Banco de Dados
 
     $conn = mysqli_connect($servidor, $usuario, $senha, $db);
-
+    mysqli_set_charset($conn, "utf8mb4");
+    
 // Consultas MySql
 
 date_default_timezone_set('America/Sao_Paulo');

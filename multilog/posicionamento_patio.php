@@ -22,7 +22,9 @@ require_once 'requests/head.php'
 ?>
 
 <body class="g-sidenav-show   bg-gray-100">
-  <div class="min-height-300 bg-primary position-absolute w-100"></div>
+  <div class="position-absolute w-100 min-height-300 top-0" style="background-image: url('https://www.logweb.com.br/wp-content/uploads/2022/12/Multilog-OEA.jpg'); background-position-y: 50%;">
+    <span class="mask bg-primary opacity-6"></span>
+  </div>
 
   <!-- Menu - Sidebar -->
 
@@ -54,6 +56,7 @@ require_once 'requests/head.php'
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Armazem/doca</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Container</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Endereco</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Sob Rodas</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Cliente</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Data Planejado</th>
@@ -65,7 +68,7 @@ require_once 'requests/head.php'
                     </tr>
                   </thead>
                   <tbody>
-                        <?php $posicionamento_sql = mysqli_query($conn,"SELECT posicionamentos.*, web_login.nome FROM posicionamentos INNER JOIN web_login ON posicionamentos.solicitado_por = web_login.email WHERE DATE_FORMAT(data_solicitado, '%Y-%m-%d') = '$today' AND posicionamentos.status != 'Realizado' OR posicionamentos.status != 'Realizado' AND posicionamentos.data_solicitado < '$today'"); 
+                        <?php $posicionamento_sql = mysqli_query($conn,"SELECT posicionamentos.*, web_login.nome, web_login.foto FROM posicionamentos INNER JOIN web_login ON posicionamentos.solicitado_por = web_login.email WHERE DATE_FORMAT(data_solicitado, '%Y-%m-%d') = '$today' AND posicionamentos.status != 'Realizado' OR posicionamentos.status != 'Realizado' AND posicionamentos.data_solicitado < '$today'"); 
                             while($row = mysqli_fetch_assoc($posicionamento_sql)) {
                               $data_solicitado = $row['data_solicitado'];      
                               $data_realizado_1 = $row['data_realizado'];
@@ -84,12 +87,14 @@ require_once 'requests/head.php'
 
                               $armazem = $row['armazem'];
                               $doca = $row['doca'];
+                              $sobrodas = $row['sobrodas'];
 
                               $prioridade = $row['prioridade'];
                               $prioridade_gestor = $row['prioridade_gestor'];
                               $priorizado_por = $row['priorizado_por'];
 
                               $status = $row['status'];
+                              $foto = $row['foto'];
 
                               $id = $row['id'];
 
@@ -103,7 +108,7 @@ require_once 'requests/head.php'
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="../assets/img/favicon.png" class="avatar avatar-sm me-3" alt="user1">
+                            <img src="<?php echo $foto ?>" class="avatar avatar-sm me-3" alt="user1">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
                             <h6 class="mb-0 text-sm"><?php echo $armazem.'-'.$doca;?></h6>
@@ -117,6 +122,11 @@ require_once 'requests/head.php'
                       <td>
                         <p class="text-xs font-weight-bold mb-0 text-center"><?php if($localizacao == '') { echo "Não Encontrado"; } else { echo $localizacao; } ?></p>
                       </td>
+                        
+                      <td>
+                         <p class="text-xs font-weight-bold mb-0 text-center"> <?php echo $sobrodas ?></p>
+                      </td>
+
                       <td>
                         <p class="text-xs font-weight-bold mb-0 text-center"><?php if($cliente_cntr == '') { echo "Não Encontrado"; } else { echo $cliente_cntr; } ?></p>
                       </td>
@@ -135,15 +145,6 @@ require_once 'requests/head.php'
                       <td style="display:none;"> 
                         <?php echo $id ?>
                       </td>
-                      <!-- <td class="align-middle text-center">
-                        <a id="ConfirmarServico_<?php echo $row['id']; ?>" data-id="<?php echo $row['id']; ?>" class="font-weight-bold text-xs btn btn-primary" data-toggle="tooltip" data-original-title="Confirmar">
-                          Finalizar Serviço
-                        </a>
-
-                        <a id="PriorizarPosicionamento_<?php echo $row['id']; ?>" data-id="<?php echo $row['id']; ?>" class="font-weight-bold text-xs btn btn-primary" data-toggle="tooltip" data-original-title="Confirmar">
-                          Priorizar
-                        </a>
-                      </td> -->
                       <?php } ?>
                       <td style="display:none;">
                        <span> <?php echo $solicitado_por_nome; ?> </span>
@@ -348,10 +349,10 @@ require_once 'requests/head.php'
             text: 'Baixar Planilha',
             className: 'btn bg-gradient-info ml-auto btn-sm font-weight-bold text-xs',
             exportOptions: {
-              columns: [2, 1, 3, 4, 6, 10, 11, 9],
+              columns: [2, 4, 1, 3, 5, 7, 11, 12, 10],
               customizeData: function ( data ) {
                 for (var i=0; i<data.body.length; i++) {
-                  data.body[i][1] = data.body[i][1].substring(0,8);
+                  data.body[i][2] = data.body[i][2].substring(0,8);
                 }
               }
             },
@@ -389,7 +390,7 @@ require_once 'requests/head.php'
       var ids = [];
 
       selectedRows.forEach(function(row, index) {
-        var id = row[8];
+        var id = row[9];
         ids.push(id);
       });
 
@@ -417,7 +418,7 @@ require_once 'requests/head.php'
         var ids = [];
 
         selectedRows.forEach(function(row, index) {
-          var id = row[8];
+          var id = row[9];
           ids.push(id);
       });
 
