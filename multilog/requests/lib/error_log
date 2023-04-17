@@ -1,8 +1,0 @@
-[05-Apr-2023 17:33:09 UTC] PHP Warning:  Undefined array key "criacao_novo_n" in /home/lksa8668/public_html/multilog/requests/lib/novo_usuario-email.php on line 320
-[05-Apr-2023 17:33:09 UTC] PHP Warning:  Undefined array key "criacao_novo_f" in /home/lksa8668/public_html/multilog/requests/lib/novo_usuario-email.php on line 329
-[05-Apr-2023 17:33:09 UTC] PHP Warning:  Undefined array key "criacao_novo_u" in /home/lksa8668/public_html/multilog/requests/lib/novo_usuario-email.php on line 332
-[05-Apr-2023 17:33:09 UTC] PHP Warning:  Undefined array key "criacao_novo_s" in /home/lksa8668/public_html/multilog/requests/lib/novo_usuario-email.php on line 333
-[05-Apr-2023 17:34:42 UTC] PHP Warning:  Undefined array key "criacao_novo_n" in /home/lksa8668/public_html/multilog/requests/lib/novo_usuario-email.php on line 320
-[05-Apr-2023 17:34:42 UTC] PHP Warning:  Undefined array key "criacao_novo_f" in /home/lksa8668/public_html/multilog/requests/lib/novo_usuario-email.php on line 329
-[05-Apr-2023 17:34:42 UTC] PHP Warning:  Undefined array key "criacao_novo_u" in /home/lksa8668/public_html/multilog/requests/lib/novo_usuario-email.php on line 332
-[05-Apr-2023 17:34:42 UTC] PHP Warning:  Undefined array key "criacao_novo_s" in /home/lksa8668/public_html/multilog/requests/lib/novo_usuario-email.php on line 333
