@@ -590,3 +590,1234 @@ Stack trace:
 [12-Apr-2023 19:05:30 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
 [12-Apr-2023 19:05:34 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
 [12-Apr-2023 19:05:36 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[12-Apr-2023 19:07:13 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 19:08:24 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[12-Apr-2023 19:09:27 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 19:09:50 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 19:10:17 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 19:15:58 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[12-Apr-2023 19:20:54 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 19:23:27 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 19:23:29 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[12-Apr-2023 19:23:38 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 19:24:57 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 19:32:39 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 19:32:41 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[12-Apr-2023 19:52:14 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 20:24:39 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 20:24:44 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[12-Apr-2023 20:25:43 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 20:27:33 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[12-Apr-2023 20:33:43 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 20:34:08 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[12-Apr-2023 20:34:15 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[12-Apr-2023 20:34:17 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 20:38:23 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 20:38:30 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[12-Apr-2023 20:38:37 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[12-Apr-2023 21:29:39 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 21:30:03 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 21:30:10 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[12-Apr-2023 21:31:13 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 21:31:53 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[12-Apr-2023 21:49:11 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 21:49:29 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[12-Apr-2023 21:58:45 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[12-Apr-2023 21:58:46 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 22:04:38 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 22:09:45 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 22:17:47 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 22:35:53 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 22:39:52 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[12-Apr-2023 22:40:43 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[12-Apr-2023 22:40:44 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 22:43:59 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 22:48:24 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 22:53:13 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 22:57:38 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 23:02:08 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 23:07:16 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 23:08:30 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 23:08:57 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 23:09:41 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[12-Apr-2023 23:21:47 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[12-Apr-2023 23:25:11 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 08:17:37 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 08:17:44 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[13-Apr-2023 09:07:55 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 09:08:13 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[13-Apr-2023 09:11:24 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[13-Apr-2023 09:37:15 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 09:37:44 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 09:58:02 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 09:58:12 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[13-Apr-2023 10:18:37 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 11:59:19 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 13:17:27 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 13:17:52 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[13-Apr-2023 13:31:32 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[13-Apr-2023 13:39:54 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 13:40:27 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[13-Apr-2023 13:41:05 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 13:41:06 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 13:41:17 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 13:42:35 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[13-Apr-2023 13:42:43 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[13-Apr-2023 13:43:22 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 13:43:40 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[13-Apr-2023 13:47:33 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 15:10:39 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 15:12:07 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[13-Apr-2023 15:21:05 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[13-Apr-2023 15:21:06 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 15:21:12 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[13-Apr-2023 15:28:49 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 15:28:57 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[13-Apr-2023 15:34:54 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 15:35:03 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 15:35:10 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 15:44:57 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 15:52:12 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 15:53:10 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 15:56:03 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 15:58:14 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 15:59:50 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 16:08:56 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[13-Apr-2023 16:23:35 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 16:50:32 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 17:41:47 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 17:42:42 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 17:45:44 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 17:51:42 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 18:03:30 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 18:04:56 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 18:05:06 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[13-Apr-2023 18:10:19 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 18:12:28 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 18:12:40 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 18:14:32 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 18:21:04 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 18:27:03 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 18:37:10 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[13-Apr-2023 18:37:14 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 18:40:21 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 18:40:41 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 18:42:06 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 18:42:21 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 18:43:33 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 18:43:54 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 18:45:21 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 18:45:25 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 18:45:28 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[13-Apr-2023 18:45:31 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 18:45:53 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 18:46:10 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 18:46:15 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 18:46:20 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[13-Apr-2023 18:46:37 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 18:48:11 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 18:48:34 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 18:50:16 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 18:50:26 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 19:22:50 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 19:22:53 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[13-Apr-2023 19:54:40 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 19:54:44 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 20:42:09 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 20:42:12 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 20:42:34 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 20:42:43 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 20:43:12 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 20:43:25 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 20:50:15 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 20:55:11 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 21:07:26 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 21:07:55 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 21:08:16 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 21:15:29 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 21:15:42 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[13-Apr-2023 21:16:21 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 21:16:49 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 21:17:28 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 21:17:28 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 21:22:30 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 21:22:33 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 21:39:37 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[13-Apr-2023 21:39:58 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 21:40:53 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 21:56:43 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 21:56:47 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 22:05:41 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 22:05:43 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[13-Apr-2023 22:18:20 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 22:55:50 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 23:04:22 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 23:05:06 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 23:11:50 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 23:11:50 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 23:11:59 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 23:13:03 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 23:13:06 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 23:13:32 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 23:14:03 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[13-Apr-2023 23:14:06 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 23:20:25 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 23:26:40 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 23:36:56 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 23:37:03 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 23:40:09 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[13-Apr-2023 23:46:49 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 07:27:30 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 07:28:37 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 07:28:42 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 07:30:41 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 07:32:20 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 07:40:49 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 07:40:51 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 07:40:53 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 07:41:01 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 07:41:03 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 10:10:30 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 10:10:44 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 10:13:05 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 10:13:37 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 10:13:50 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 10:14:50 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 10:15:07 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 10:16:25 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 10:17:08 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 10:17:58 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 12:29:43 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 12:29:46 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 12:29:48 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 12:30:06 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 12:30:09 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 12:30:10 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/controle_usuario.php on line 431
+[14-Apr-2023 12:30:12 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 12:30:24 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 12:30:32 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 13:39:43 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 13:40:41 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 14:13:55 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 14:14:09 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 14:14:55 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 14:14:57 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 14:15:55 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 14:16:53 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 14:21:21 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 14:21:26 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 14:21:41 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 14:22:57 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/controle_usuario.php on line 431
+[14-Apr-2023 14:26:24 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 14:27:45 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/controle_usuario.php on line 431
+[14-Apr-2023 14:32:35 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/controle_usuario.php on line 431
+[14-Apr-2023 14:32:37 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 14:32:37 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 14:33:08 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 14:33:13 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 14:35:56 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 14:35:57 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 14:35:58 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 14:36:12 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 14:36:13 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 14:36:15 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 14:36:36 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 14:36:37 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 14:36:38 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 14:37:46 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 14:38:23 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 14:38:45 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 14:39:21 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 14:39:25 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 14:39:27 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 14:39:29 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 14:39:40 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 14:39:44 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 14:39:48 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 14:41:27 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 14:43:12 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 14:43:17 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 14:43:33 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 14:43:56 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 14:43:57 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 14:44:27 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 14:44:27 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 14:45:51 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 14:54:19 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 14:59:18 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 14:59:20 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 14:59:29 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/controle_usuario.php on line 431
+[14-Apr-2023 15:03:44 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 15:03:51 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 15:04:10 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/controle_usuario.php on line 431
+[14-Apr-2023 15:12:27 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 15:12:34 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 15:12:35 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 15:20:13 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 15:21:25 America/Sao_Paulo] PHP Warning:  fopen(requests/planilha/containers_para_desova.csv): Failed to open stream: No such file or directory in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 42
+[14-Apr-2023 15:21:25 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: fgetcsv(): Argument #1 ($stream) must be of type resource, bool given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:43
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(43): fgetcsv()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 43
+[14-Apr-2023 15:21:41 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:22:10 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:22:11 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:22:12 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 18:23:31 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 126
+[14-Apr-2023 18:23:32 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 126
+[14-Apr-2023 15:23:39 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:24:18 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 308
+[14-Apr-2023 15:24:56 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(108): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:25:07 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 308
+[14-Apr-2023 15:26:15 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 308
+[14-Apr-2023 15:26:15 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 308
+[14-Apr-2023 15:26:35 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:26:53 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:26:54 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:26:55 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:26:55 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:27:03 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:27:03 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:27:04 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:27:09 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:27:09 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:27:10 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:27:10 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:27:26 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:27:27 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:27:28 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:27:54 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:27:54 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:27:55 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:28:02 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:28:06 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:28:09 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 308
+[14-Apr-2023 15:28:30 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:28:53 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 308
+[14-Apr-2023 15:29:03 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 308
+[14-Apr-2023 15:29:50 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:29:51 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:29:53 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:31:56 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 15:32:47 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:32:55 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 15:33:03 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:33:04 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:33:04 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:33:05 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:33:05 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:33:34 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:33:40 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:33:41 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:33:42 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:33:42 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:33:43 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:33:43 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:34:12 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 308
+[14-Apr-2023 15:36:02 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 308
+[14-Apr-2023 15:38:19 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:38:20 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:38:20 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:38:21 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:38:21 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:38:22 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:38:55 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:38:56 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:39:04 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:39:04 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:39:05 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:39:05 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:39:06 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:39:11 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:39:12 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:39:12 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:39:19 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:39:19 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:40:23 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 15:40:27 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 15:40:49 America/Sao_Paulo] PHP Warning:  Array to string conversion in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 44
+[14-Apr-2023 15:40:49 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:47
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(47): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 47
+[14-Apr-2023 15:40:56 America/Sao_Paulo] PHP Warning:  Array to string conversion in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 44
+[14-Apr-2023 15:40:56 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:47
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(47): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 47
+[14-Apr-2023 15:40:57 America/Sao_Paulo] PHP Warning:  Array to string conversion in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 44
+[14-Apr-2023 15:40:57 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:47
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(47): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 47
+[14-Apr-2023 15:40:58 America/Sao_Paulo] PHP Warning:  Array to string conversion in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 44
+[14-Apr-2023 15:40:58 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:47
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(47): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 47
+[14-Apr-2023 15:41:03 America/Sao_Paulo] PHP Warning:  Array to string conversion in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 44
+[14-Apr-2023 15:41:03 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:47
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(47): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 47
+[14-Apr-2023 15:41:03 America/Sao_Paulo] PHP Warning:  Array to string conversion in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 44
+[14-Apr-2023 15:41:03 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:47
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(47): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(107): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 47
+[14-Apr-2023 15:41:26 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 15:41:29 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/controle_usuario.php on line 431
+[14-Apr-2023 18:41:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function planejado_desova() in /home/lksa8668/public_html/multilog/teste.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:42:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function planejado_desova() in /home/lksa8668/public_html/multilog/teste.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:42:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function planejado_desova() in /home/lksa8668/public_html/multilog/teste.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:42:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function planejado_desova() in /home/lksa8668/public_html/multilog/teste.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:42:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function planejado_desova() in /home/lksa8668/public_html/multilog/teste.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:43:08 UTC] PHP Warning:  require_once(requests/planilha/estoque_container.php): Failed to open stream: No such file or directory in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:43:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'requests/planilha/estoque_container.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lksa8668/public_html/multilog/teste.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 15:43:28 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 18:43:31 UTC] PHP Warning:  require_once(requests/planilha/estoque_container.php): Failed to open stream: No such file or directory in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:43:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'requests/planilha/estoque_container.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lksa8668/public_html/multilog/teste.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:43:32 UTC] PHP Warning:  require_once(requests/planilha/estoque_container.php): Failed to open stream: No such file or directory in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:43:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'requests/planilha/estoque_container.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lksa8668/public_html/multilog/teste.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:43:32 UTC] PHP Warning:  require_once(requests/planilha/estoque_container.php): Failed to open stream: No such file or directory in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:43:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'requests/planilha/estoque_container.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lksa8668/public_html/multilog/teste.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:43:32 UTC] PHP Warning:  require_once(requests/planilha/estoque_container.php): Failed to open stream: No such file or directory in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:43:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'requests/planilha/estoque_container.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lksa8668/public_html/multilog/teste.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:43:33 UTC] PHP Warning:  require_once(requests/planilha/estoque_container.php): Failed to open stream: No such file or directory in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:43:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'requests/planilha/estoque_container.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lksa8668/public_html/multilog/teste.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:43:33 UTC] PHP Warning:  require_once(requests/planilha/estoque_container.php): Failed to open stream: No such file or directory in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:43:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'requests/planilha/estoque_container.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lksa8668/public_html/multilog/teste.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:43:33 UTC] PHP Warning:  require_once(requests/planilha/estoque_container.php): Failed to open stream: No such file or directory in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:43:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'requests/planilha/estoque_container.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lksa8668/public_html/multilog/teste.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:43:34 UTC] PHP Warning:  require_once(requests/planilha/estoque_container.php): Failed to open stream: No such file or directory in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:43:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'requests/planilha/estoque_container.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lksa8668/public_html/multilog/teste.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:43:35 UTC] PHP Warning:  require_once(requests/planilha/estoque_container.php): Failed to open stream: No such file or directory in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:43:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'requests/planilha/estoque_container.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lksa8668/public_html/multilog/teste.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:43:35 UTC] PHP Warning:  require_once(requests/planilha/estoque_container.php): Failed to open stream: No such file or directory in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:43:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'requests/planilha/estoque_container.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lksa8668/public_html/multilog/teste.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:43:46 UTC] PHP Warning:  require_once(requests/planilha/estoque_container.php): Failed to open stream: No such file or directory in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:43:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'requests/planilha/estoque_container.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lksa8668/public_html/multilog/teste.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:43:51 UTC] PHP Warning:  Array to string conversion in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 44
+[14-Apr-2023 18:43:51 UTC] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:47
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(47): array_combine()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 47
+[14-Apr-2023 18:44:38 UTC] PHP Warning:  Array to string conversion in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 44
+[14-Apr-2023 18:44:38 UTC] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:47
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(47): array_combine()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 47
+[14-Apr-2023 18:44:40 UTC] PHP Warning:  Array to string conversion in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 44
+[14-Apr-2023 18:44:40 UTC] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:47
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(47): array_combine()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 47
+[14-Apr-2023 18:44:41 UTC] PHP Warning:  Array to string conversion in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 44
+[14-Apr-2023 18:44:41 UTC] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:47
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(47): array_combine()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 47
+[14-Apr-2023 18:44:48 UTC] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 18:44:49 UTC] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 18:45:25 UTC] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 18:45:26 UTC] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 18:45:26 UTC] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 18:45:27 UTC] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 18:45:27 UTC] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 18:45:27 UTC] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 18:45:29 UTC] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 18:45:30 UTC] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 18:45:30 UTC] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 18:45:30 UTC] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 18:45:32 UTC] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:46
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(46): array_combine()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 46
+[14-Apr-2023 18:45:48 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:45:48 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:45:49 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:45:49 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:45:50 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:45:50 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:45:50 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:45:51 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:45:51 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:45:51 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:45:52 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:45:52 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:45:53 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:45:53 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:45:54 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:46:20 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:46:20 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:46:21 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:46:21 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:46:21 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:46:21 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:46:21 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:46:22 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:46:56 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(7): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:46:57 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(7): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:46:57 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(7): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:46:57 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(7): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:46:58 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(7): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:46:58 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(7): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:46:59 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(7): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:46:59 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(7): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:47:00 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(7): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 18:47:00 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(7): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 15:47:02 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 18:47:44 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:52
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(52): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(7): planejado_desova()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 52
+[14-Apr-2023 15:47:50 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 18:48:04 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:32
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(32): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(7): cliente_cntr()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 32
+[14-Apr-2023 18:48:08 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:32
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(32): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(7): cliente_cntr()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 32
+[14-Apr-2023 15:48:15 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 18:50:16 UTC] PHP Warning:  require_once(requests/planilha/estoque_containers;php): Failed to open stream: No such file or directory in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 18:50:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'requests/planilha/estoque_containers;php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lksa8668/public_html/multilog/teste.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lksa8668/public_html/multilog/teste.php on line 3
+[14-Apr-2023 15:50:50 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 15:50:57 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 15:50:59 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 15:51:00 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 15:51:04 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 18:51:31 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:32
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(32): in_array()
+#1 /home/lksa8668/public_html/multilog/teste.php(5): cliente_cntr()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 32
+[14-Apr-2023 15:52:05 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 304
+[14-Apr-2023 15:52:07 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 304
+[14-Apr-2023 15:56:29 America/Sao_Paulo] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php:44
+Stack trace:
+#0 /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php(44): array_combine()
+#1 /home/lksa8668/public_html/multilog/posicionamento_patio.php(106): DataPlanejado()
+#2 {main}
+  thrown in /home/lksa8668/public_html/multilog/requests/planilha/estoque_containers.php on line 44
+[14-Apr-2023 15:56:35 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 15:56:38 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 15:57:35 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 16:02:36 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/controle_usuario.php on line 431
+[14-Apr-2023 16:03:19 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 16:03:30 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 16:03:32 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/controle_usuario.php on line 431
+[14-Apr-2023 16:03:49 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 16:04:07 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/controle_usuario.php on line 431
+[14-Apr-2023 16:04:28 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 16:04:35 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 16:04:39 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/controle_usuario.php on line 431
+[14-Apr-2023 16:04:49 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 16:04:58 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 16:06:25 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/controle_usuario.php on line 431
+[14-Apr-2023 16:14:47 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 16:20:02 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 16:20:23 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/controle_usuario.php on line 431
+[14-Apr-2023 16:21:08 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 16:22:42 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 16:23:28 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 16:23:40 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 16:23:41 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/controle_usuario.php on line 431
+[14-Apr-2023 16:23:42 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 16:23:44 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 16:31:33 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 16:31:59 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 16:33:11 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 16:35:41 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 16:36:10 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 16:37:05 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 16:37:07 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 16:37:08 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 16:37:09 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 16:38:05 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 16:40:51 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 16:48:14 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 16:49:10 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 16:52:18 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 16:53:53 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 16:55:46 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 16:56:40 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 16:56:41 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 16:56:49 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 16:58:35 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 16:59:01 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 16:59:07 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 16:59:18 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 17:00:01 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 17:01:12 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 17:01:14 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 17:01:18 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 17:02:34 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 17:11:48 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 17:11:50 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 17:11:59 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 17:15:54 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 17:15:57 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 17:16:08 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 17:20:28 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 17:21:25 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 17:56:34 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 18:23:22 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 18:23:24 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 21:20:03 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 21:20:09 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 21:34:21 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 21:36:44 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 21:54:15 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 22:02:23 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 22:06:51 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 22:10:17 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 22:10:19 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 22:26:12 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 22:26:23 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 22:28:05 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 22:33:18 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 22:33:40 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 22:36:29 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 23:00:20 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 23:08:36 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 23:08:38 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 23:09:33 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[14-Apr-2023 23:09:38 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[14-Apr-2023 23:13:34 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 23:24:34 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[14-Apr-2023 23:40:26 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[15-Apr-2023 09:43:09 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[15-Apr-2023 09:43:16 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[15-Apr-2023 13:42:22 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[15-Apr-2023 13:42:45 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[15-Apr-2023 13:43:00 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[15-Apr-2023 20:20:10 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[17-Apr-2023 07:02:06 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[17-Apr-2023 07:02:17 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_armazem.php on line 320
+[17-Apr-2023 07:04:54 America/Sao_Paulo] PHP Warning:  Undefined array key "msg_arquivo" in /home/lksa8668/public_html/multilog/dashboard.php on line 390
+[17-Apr-2023 07:05:19 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[17-Apr-2023 07:11:56 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[17-Apr-2023 07:12:08 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302
+[17-Apr-2023 07:17:08 America/Sao_Paulo] PHP Warning:  Undefined array key "msg" in /home/lksa8668/public_html/multilog/posicionamento_patio.php on line 302

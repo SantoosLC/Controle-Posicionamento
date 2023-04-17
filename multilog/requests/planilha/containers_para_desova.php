@@ -35,21 +35,3 @@ function cliente_cntr($containers) {
     }
     return $cliente;
 }
-
-function DataPlanejado($containers) {
-    $file = fopen('requests/planilha/Containers_Para_Desova.csv', 'r');
-    $headers = fgetcsv($file, 0, ';');
-    $data_info_cntr = array();
-    while ($row = fgetcsv($file, 0, ';')) {
-        $data_info_cntr[] = array_combine($headers, $row);
-    }
-    fclose($file);
-
-    $cliente = '';
-    foreach ($data_info_cntr as $info_cntr) {
-        if (in_array($info_cntr['Cnt'], $containers)) {
-            $cliente = $info_cntr['Iniplanejado'];
-        }
-    }
-    return $cliente;
-}
